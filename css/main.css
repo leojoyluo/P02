@@ -17,6 +17,9 @@
  #icons{
      margin-left: 70%;
  }
+ media(min-width:60em){
+        margin-left: 5%;
+ }
 
 #citations{
   font-family:Arial ;
