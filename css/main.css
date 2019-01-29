@@ -20,7 +20,7 @@
  @media(min-width:60em){
         margin-left: 5%;
         width: 210px;
-         height: 210px;
+        height: 210px;
  }
 
 #citations{
@@ -264,6 +264,9 @@ label{
 }
 @media(min-width:60em){
   #contact_us{
+    margin-left: 5%;
+  }
+  #color_palette{
     margin-left: 5%;
   }
 }
