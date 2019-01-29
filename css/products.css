@@ -1,0 +1,24 @@
+nav#sub_nav{
+	background: red;
+	color: #d4a7fd;
+
+}
+nav#sub_nav a{
+
+	color: #d4a7fd;
+}
+nav#sub_nav a:hover{
+	color: white;
+}
+.products figcaption{
+	display: none;
+}
+.products:hover, figcaption{
+    display: block;
+}
+h2{
+	margin-bottom: 0;
+}
+h4{
+	margin-top: 50px;
+}

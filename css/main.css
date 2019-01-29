@@ -1,0 +1,269 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+.icon{
+  margin: 50px;
+  margin-bottom: 10px;
+}
+.logo:hover{
+ opacity: 0.5;
+}
+/*
+   .icon is for the icons seprately
+    #icons is for the group of icons
+*/
+#icons{
+  margin-left: 70%;
+}
+#citations{
+  font-family:Arial ;
+}
+#Home p{
+  text-align: center;
+}
+#Home p a{
+  text-decoration: none;
+  color: #d4a7fd;
+}
+#Home p a:hover{
+  color: red;
+}
+
+section ol a p{
+  text-decoration: none;
+  color: #d4a7fd;
+}
+section ol a p:hover{
+  color: red;
+}
+body {
+  font-family: impact;
+  padding: 2rem;
+}
+header{
+/*  background-color: #FF99CC;
+*/}
+section h4{
+  color: #d4a7fd;
+}
+input{
+    color: #d4a7fd;
+}
+input:hover{
+    color: red;
+}
+button-nav{
+    background-color: #d4a7fd;
+}
+/*.button-nav{
+    background-color: #d4a7fd;
+}
+.button-nav:hover{
+    background-color: red;
+}*/
+nav{
+  background-color: #d4a7fd;
+  text-align: center;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  font-family: impact;
+  margin-left: 2em;
+  height: 100px;
+}
+nav ul{
+  text-decoration: none;
+  color: white;
+  font-family: impact;
+  height: 25px;
+}
+nav ul li{
+  list-style: none;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+
+}
+h1{
+  color: #d4a7fd;
+}
+h2 {
+  margin-top: 6rem;
+  background-color: #d4a7fd;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+
+h3{
+  text-align: center;
+  font-size: 1.2em;
+  font-weight:bold;
+  margin-top: 1rem;
+  margin-bottom: 15px;
+/*  background: #d4a7fd;
+*/  color: red;
+  border-top: solid #d4a7fd 3px;
+  border-bottom: solid #d4a7fd 3px;
+}
+
+h4 {
+  margin-bottom: 1rem;
+/*  border-bottom: dotted #66CCCC 3px;
+*/  
+text-align: center;
+  border-bottom-style: dotted;
+  border-bottom-color: #d4a7fd 3px;
+}
+
+p {
+  margin-top: 0;
+  max-width: 85em;
+/*  font-family: "times-new-roman";
+*/}
+.quote{
+  font-family: Arial;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color:red;
+}
+
+nav a:focus {
+  text-decoration: none;
+  color:yellow;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+section{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+section ol a p{
+  text-decoration: none;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(50,50,50);
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(200,200,200);
+}
+
+ul li a:focus{
+ color: yellow;
+}
+ul li a:hover{
+ color: red;
+}
+a#intext_link:hover{
+  color: red;
+}
+a#intext_link:focus{
+  color: yellow;
+}
+/*codes BELOW are the different looks for the image's different states:hover, focus
+*/
+#image:hover{
+/* width: 125%;
+ height: 125%;
+*/
+ opacity: 0.8;
+
+}
+#image:focus{
+/* width: 125%;
+ height: 125%;
+*/
+ opacity:0.2;
+}
+#image img{
+  text-align: center;
+  width: 100%;
+}
+
+/*label & input style
+*/
+
+label:hover{
+  color: black;
+}
+label:focus{
+  color: yellow;
+}
+input{
+  font-family: Arial;
+  border: #d4a7fd solid 1px;
+  margin-left: 10px;
+}
+label{
+    font-family: Arial;
+    color: #d4a7fd;
+}
+/*
+   make the product list align with the centre, when the mouse hover,the image
+  will change its opacity and the name of the product will be underline
+*/
+.products{
+  text-align: center;
+}
+.products img:hover{
+  opacity: 0.6;
+}
+.products:hover{
+      text-decoration: underline;
+  }
+#contact_us{
+  margin-left: 35%; 
+    margin-right: 35%; 
+
+}
+
+/* Home  section*/
+#Home .css_selector{
+  text-align: left;
+    color: #d4a7fd;
+}
+#card_section .css_selector{
+    color: #d4a7fd;
+
+}
+#payment_section .css_selector{
+      color: #d4a7fd;
+
+}
+#contact_us ul li span{
+  font-family: Arial;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/

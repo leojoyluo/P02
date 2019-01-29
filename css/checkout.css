@@ -1,0 +1,15 @@
+input{
+	margin-bottom: 25px;
+}
+form{
+	margin-left: 100px;
+}
+div p{
+	margin-left: 70px;
+}
+p#total_amount{
+	margin-left: 370px;
+}
+a.button-nav{
+	margin-left: 340px;
+}
