@@ -257,6 +257,17 @@ label{
   font-family: Arial;
 }
 
+/*  responsive for the homepage image */
+@media(min-width:30em){
+    #homepage_img{
+      width: 100%;
+      height: auto
+    }
+
+}
+
+
+
 /* 
   TEXT ELEMENTS -------------------
 */
