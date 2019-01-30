@@ -240,11 +240,13 @@ label{
 .products:hover{
       text-decoration: underline;
   }
-/* #contact_us{
-  margin-left: 35%; 
-    margin-right: 35%; 
+@media(min-width:200em){
+      #contact_us{
+      margin-left: 35%; 
+        margin-right: 35%; 
 
-} */
+    }
+}
 
 /* Home  section*/
 #Home .css_selector{
