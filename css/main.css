@@ -17,11 +17,6 @@
  /* #icons{
      margin-left: 70%;
  } */
- /* @media(min-width:60em){
-        margin-left: 5%;
-        width: 210px;
-        height: 210px;
- } */
 
 #citations{
   font-family:Arial ;
@@ -240,13 +235,7 @@ label{
 .products:hover{
       text-decoration: underline;
   }
-/* @media(min-width:200em){
-      #contact_us ul li{
-      margin-left: 95%; 
-        margin-right: 35%; 
 
-    }
-} */
 
 /* Home  section*/
 #Home .css_selector{

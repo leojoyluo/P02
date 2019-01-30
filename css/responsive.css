@@ -1,0 +1,19 @@
+/* @media(max-width:5em){
+    h2,h3{
+        padding-left: 5%;
+
+} */
+@media(min-width:50em){
+      #contact_us ul li{
+      margin-left: 35%; 
+        margin-right: 35%; 
+    }
+    #contact_us img{
+      margin-left: 35%;
+    }
+}
+@media(min-width:50em){
+    #icons{
+              margin-left: 60%; 
+    }
+}
