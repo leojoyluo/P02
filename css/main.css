@@ -17,11 +17,6 @@
  /* #icons{
      margin-left: 70%;
  } */
- @media(min-width:60em){
-        margin-left: 5%;
-        width: 210px;
-        height: 210px;
- }
 
 #citations{
   font-family:Arial ;
@@ -31,18 +26,18 @@
 }
 #Home p a{
   text-decoration: none;
-  color: #d4a7fd;
+  color: #475a4d;
 }
 #Home p a:hover{
-  color: red;
+  color: #d4a7fd;
 }
 
 section ol a p{
   text-decoration: none;
-  color: #d4a7fd;
+  color: #475a4d;
 }
 section ol a p:hover{
-  color: red;
+  color: #d4a7fd;
 }
 body {
   font-family: impact;
@@ -52,16 +47,16 @@ header{
 /*  background-color: #FF99CC;
 */}
 section h4{
-  color: #d4a7fd;
+  color:#475a4d;
 }
 input{
-    color: #d4a7fd;
+    color: #475a4d;
 }
 input:hover{
-    color: red;
+    color: #d4a7fd;
 }
 button-nav{
-    background-color: #d4a7fd;
+    background-color: #475a4d;
 }
 /*.button-nav{
     background-color: #d4a7fd;
@@ -70,7 +65,11 @@ button-nav{
     background-color: red;
 }*/
 nav{
+<<<<<<< HEAD
 
+=======
+  background-color: #475a4d;
+>>>>>>> master
   text-align: center;
 }
 nav a{
@@ -96,11 +95,11 @@ nav ul li{
 
 }
 h1{
-  color: #d4a7fd;
+  color: #475a4d;
 }
 h2 {
   margin-top: 6rem;
-  background-color: #d4a7fd;
+  background-color: #475a4d;
   text-align: center;
   font-size: 2em;
   color: white;
@@ -113,9 +112,9 @@ h3{
   margin-top: 1rem;
   margin-bottom: 15px;
 /*  background: #d4a7fd;
-*/  color: red;
-  border-top: solid #d4a7fd 3px;
-  border-bottom: solid #d4a7fd 3px;
+*/  color: #d4a7fd;
+  border-top: solid #475a4d 3px;
+  border-bottom: solid #475a4d 3px;
 }
 
 h4 {
@@ -124,7 +123,7 @@ h4 {
 */  
 text-align: center;
   border-bottom-style: dotted;
-  border-bottom-color: #d4a7fd 3px;
+  border-bottom-color: #475a4d 3px;
 }
 
 p {
@@ -137,7 +136,7 @@ p {
 
 nav a:hover {
   text-decoration: none;
-  color:red;
+  color:#d4a7fd;
 }
 
 nav a:focus {
@@ -181,10 +180,10 @@ ul li a:focus{
  color: yellow;
 }
 ul li a:hover{
- color: red;
+ color: #d4a7fd;
 }
 a#intext_link:hover{
-  color: red;
+  color: #d4a7fd;
 }
 a#intext_link:focus{
   color: yellow;
@@ -220,12 +219,12 @@ label:focus{
 }
 input{
   font-family: Arial;
-  border: #d4a7fd solid 1px;
+  border: #475a4d solid 1px;
   margin-left: 10px;
 }
 label{
     font-family: Arial;
-    color: #d4a7fd;
+    color: #475a4d;
 }
 /*
    make the product list align with the centre, when the mouse hover,the image
@@ -240,25 +239,19 @@ label{
 .products:hover{
       text-decoration: underline;
   }
-@media(min-width:200em){
-      #contact_us{
-      margin-left: 35%; 
-        margin-right: 35%; 
 
-    }
-}
 
 /* Home  section*/
 #Home .css_selector{
   text-align: left;
-    color: #d4a7fd;
+    color: #475a4d;
 }
 #card_section .css_selector{
-    color: #d4a7fd;
+    color: #475a4d;
 
 }
 #payment_section .css_selector{
-      color: #d4a7fd;
+      color: #475a4d;
 
 }
 
@@ -267,10 +260,7 @@ label{
 #contact_us ul li span{
   font-family: Arial;
 }
-@media(min-width:60em){
-  #contact_us{
-    margin-left: 5%;
-  }
+/*   */
   #color_palette{
     margin-left: 5%;
   }
