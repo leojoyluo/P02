@@ -5,21 +5,28 @@
 
 .nav-2of2{
     width:100%;
-
+ 
 }
 
-.nav-1of2{
-    width:100%;
 
-}
 
-@media (min-width:80em){
+@media (max-width:50em){
 
     
-    .nav-1of10{
-        width:15em;
+    .nav-2of2{
+    	
+        width:50%;
     }
     }
 
 
     
+@media (max-width:41em){
+
+    
+    .nav-2of2{
+    	
+        width:20%;
+    }
+    }
+
