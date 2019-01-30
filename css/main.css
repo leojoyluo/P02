@@ -261,6 +261,9 @@ label{
       color: #d4a7fd;
 
 }
+
+
+
 #contact_us ul li span{
   font-family: Arial;
 }
@@ -274,6 +277,7 @@ label{
 }
 
 /*  responsive for the homepage image */
+<<<<<<< Updated upstream
 /* @media(min-width:30em){
     #homepage_img{
       width: 100%;
@@ -281,6 +285,9 @@ label{
     }
 
 } */
+=======
+
+>>>>>>> Stashed changes
 
 
 
