@@ -1,0 +1,25 @@
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+
+
+.nav-2of2{
+    width:100%;
+
+}
+
+.nav-1of2{
+    width:100%;
+
+}
+
+@media (min-width:80em){
+
+    
+    .nav-1of10{
+        width:15em;
+    }
+    }
+
+
+    
