@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Joy's Tea  - Checkout Page </title>
+  <title>Home's Tea  - Checkout Page </title>
   <link href="css/main.css" rel="stylesheet">
   <link href="css/checkout.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet" >
 </head>
 <body>
  <header>
-  <h1>Joy's Tea  - Checkout</h1>
+  <h1>Home's Tea  - Checkout</h1>
 
-  <p class ="quote">"<dfn>TEA</dfn> defines the way you live."<cite>Joy</cite></p>
+  <p class ="quote">"<dfn>TEA</dfn> defines the way you live."<cite>Home's Tea</cite></p>
   <div id="icons">
     <a class="logo" href="index.html#login_section"><img class="icon" src="img/login.png" alt="login" width="30" height="30"></a>
     <a class="logo" href="#cart_section"><img class="icon" src="img/cart.png" alt="cart" width="30" height="30"></a>
@@ -32,22 +33,23 @@
 
 <section class="element" >        
 <!--          <h4>Shopping Cart</h4>
--->   <div>
+-->  <div>
   <p>bear trap <strong>$5.98</strong></p>
 </div>
-
-<form class="form1">
-  <label for="quantity">Quantity</label>
-  <input type="number" id="quantity" name="quantity">
-  <input type="reset" value="RESET">
-  <input type="submit" value="SUBMIT">
-</form>
-
+  <div class="form_div">
+    <form class="form1">
+      <label for="quantity">Quantity</label>
+      <input type="number" id="quantity" name="quantity">
+      <input type="reset" value="RESET">
+      <input type="submit" value="SUBMIT">
+    </form>
+    </div>
 <div>
   <p>matcha <strong>$5.98</strong></p>
 </div>
 
-<form>
+<div class="form_div">
+<form class="form1">
   <label for="quantity">Quantity</label>
   <input type="number" id="quantity" name="quantity">
   <input type="reset" value="RESET">
@@ -55,6 +57,7 @@
   <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset -->
 </form>
 <p id="total_amount">Total: $11.96</p>
+</div>
 <!-- <h3>Navigation Link</h3>
 <h5>CSS selector:</h5>
 <p class="css_selector">#cart_section a</p>
@@ -79,23 +82,33 @@
    <code>&lt;label for="card_number"&gt;Username&lt;/label&gt;</code>
    <code>&lt;input type="number" id="quantity" name="card_number"&gt;</code>
    <code>&lt;input type="reset" value="RESET"&gt;</code> -->
-<form>
-   <form>
-    <label for="card_number">Credit / Debit Card Number:</label>
-    <input type="number" id="card_number" name="card_number">
-    <input type="reset" value="RESET">
-  </form>
   <form>
-    <label for="card_cvv">CVV:</label>
-    <input type="number" id="card_cvv" name="card_cvv">
-    <input type="reset" value="RESET">
+   <div class="form_div">
+     <form>
+      <label for="card_number">Credit / Debit Card Number:</label>
+      <input type="number" id="card_number" name="card_number">
+      <input type="reset" value="RESET">
+    </form>
+  </div>
+
+  <div class="form_div">
+    <form>
+      <label for="card_cvv">CVV:</label>
+      <input type="number" id="card_cvv" name="card_cvv">
+      <input type="reset" value="RESET">
+    </form>
+  </div>
+
+  <div class="form_div">
+    <form>
+      <label for="card_date">Expire Date:</label>
+      <input type="date" id="card_date" name="card_date">
+      <input type="reset" value="RESET">
+    </form>
+  </div>
+
   </form>
-  <form>
-    <label for="card_date">Expire Date:</label>
-    <input type="date" id="card_date" name="card_date">
-    <input type="reset" value="RESET">
-  </form>
-</form>
+
   <!-- <h3>Navigation Link</h3>
 
   <h5>CSS selector:</h5>

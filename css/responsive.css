@@ -22,14 +22,22 @@ div.products{
   text-align: center;
 }
 
+
 @media(min-width: 50em){
   div.products{
     float: left;
     width: 50%;
     text-align: center;
   }
+    .form_div{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
 }
 h3,h2,h4{
   display: block;
   clear: both;
-  }
+}
+
