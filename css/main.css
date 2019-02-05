@@ -230,9 +230,7 @@ label{
    make the product list align with the centre, when the mouse hover,the image
   will change its opacity and the name of the product will be underline
 */
-.products{
-  text-align: center;
-}
+
 .products img:hover{
   opacity: 0.6;
 }
@@ -264,6 +262,13 @@ label{
   #color_palette{
     margin-left: 5%;
   }
+
+
+div.products{
+  float: left;
+  width: 50%;
+  height: 40%;
+  text-align: center;
 }
 
 /*  responsive for the homepage image */
