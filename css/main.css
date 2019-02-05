@@ -64,12 +64,8 @@ button-nav{
 .button-nav:hover{
     background-color: red;
 }*/
-nav{
-<<<<<<< HEAD
-
-=======
-  background-color: #475a4d;
->>>>>>> master
+nav#main-nav{
+  background: #475a4d;
   text-align: center;
 }
 nav a{
@@ -263,7 +259,7 @@ label{
     margin-left: 5%;
   }
 
-  
+
 
 /*  responsive for the homepage image */
 <<<<<<< Updated upstream
