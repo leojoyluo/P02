@@ -29,3 +29,7 @@ div.products{
     text-align: center;
   }
 }
+h3,h2,h4{
+  display: block;
+  clear: both;
+  }
