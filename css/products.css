@@ -9,6 +9,7 @@ nav#main-nav{
 nav#sub_nav{
 	background: red;
 	color: #d4a7fd;
+	text-align: center;
 
 }
 nav#sub_nav a{
