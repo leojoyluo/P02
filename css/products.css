@@ -10,7 +10,8 @@ nav#sub_nav{
 	background: red;
 	color: #d4a7fd;
 	text-align: center;
-
+	width:100%;
+	margin-left:0em;
 }
 nav#sub_nav a{
 
