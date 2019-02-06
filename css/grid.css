@@ -23,7 +23,7 @@
 input{
     margin-bottom: 25px;
 }
-form{
+{
     margin-left: 100px;
 }
 div p{
@@ -51,7 +51,7 @@ div p{
     margin-left: 30em;
     }
 }
-@media (max-width:65em){
+@media (max-width:72em){
 
       #cart{
 
@@ -79,7 +79,7 @@ div p{
     }
     nav{
         margin-left:-3em;
-        margin-top:0.5em;
+        margin-top:0.3em;
     }
 
 }
@@ -95,10 +95,13 @@ div p{
 
   @media (max-width:30em){
       #cart{
- 
         margin-left:1em;
         width:100%; 
     }
+        #card_number{
+            width:60%;
+            margin-left:0em;
+        }
         #quantity{
             width:25%;
         }
