@@ -20,6 +20,16 @@
    
     
 }
+
+#card_number{
+            width:15em;
+            margin-left:0em;
+}
+
+#confirm{
+    margin-left:5em;
+    margin-top:1em;
+}
 input{
     margin-bottom: 25px;
 }
@@ -36,7 +46,9 @@ div p{
 @media (max-width:150em){
 
     
-  
+    #cart_item{
+            margin-left:0em;
+        }
     nav{
         margin-top: 0.8em;
         margin-left:7em;
@@ -65,7 +77,9 @@ div p{
     #nav{
         margin-left:3em;
     }
-
+    #cart_item{
+        margin-left:0em;
+    }
 }   
 
 
@@ -81,6 +95,9 @@ div p{
         margin-left:-3em;
         margin-top:0.3em;
     }
+    #cart_item{
+        margin-left:0em;
+    }
 
 }
 
@@ -89,19 +106,22 @@ div p{
  p#total{
     margin-left: 20em;
     }
-
+ #card_number{
+    width:65%;
+    margin-left:0em;
+    }
+ #cart_item{
+    margin-left:0em;
+        }
 }
 
 
   @media (max-width:30em){
       #cart{
-        margin-left:1em;
+        margin-left:0em;
         width:100%; 
     }
-        #card_number{
-            width:60%;
-            margin-left:0em;
-        }
+
         #quantity{
             width:25%;
         }
@@ -111,4 +131,6 @@ div p{
     p#total{
         margin-left:13em;
     }
+
+
 }
