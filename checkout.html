@@ -6,6 +6,7 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="css/checkout.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet" >
+  <link href="css/grid.css" rel="stylesheet" >
 </head>
 <body>
  <header>
@@ -17,14 +18,24 @@
     <a class="logo" href="#cart_section"><img class="icon" src="img/cart.png" alt="cart" width="30" height="30"></a>
   </div>
 
-  <nav id="main-nav">        
-    <a href="index.html">Home</a>
-    <a href="#about_us">About Us</a>
-    <a href="index.html#contact_us">Contact Us</a>
-    <a href="product_listing.html">Products</a>
-    <a href="checkout.html">Checkout</a>
-    <a href="#citations">Citations</a>
-  </nav>
+      <div class="nav-2of2"> 
+      <nav id="main-nav">      
+   
+        <div class="nav-1of2"> 
+        <a href="#interactive_elements" id="nav">Home</a>
+        <a href="#about_us" id="nav">About Us</a>
+        <a href="#contact_us" id="nav">Contact Us</a>
+        </div>
+
+        <div class="nav-1of2"> 
+        <a href="product_listing.html" id="nav">Products</a>
+        <a href="checkout.html" id="nav">Checkout</a>
+        <a href="#citations" id="nav">Citations</a> 
+        </div>
+  
+      
+      </nav>
+      </div>
 
   <h2 id="cart_section">Shopping Cart</h2>
 
@@ -33,11 +44,12 @@
 
 <section class="element" >        
 <!--          <h4>Shopping Cart</h4>
--->  <div>
-  <p>bear trap <strong>$5.98</strong></p>
+-->
+<div id="shopping_cart">
+  <p id="cart_item">bear trap <strong>$5.98</strong></p>
 </div>
   <div class="form_div">
-    <form class="form1">
+    <form id="cart">
       <label for="quantity">Quantity</label>
       <input type="number" id="quantity" name="quantity">
       <input type="reset" value="RESET">
@@ -45,18 +57,18 @@
     </form>
     </div>
 <div>
-  <p>matcha <strong>$5.98</strong></p>
+  <p id="cart_item">matcha <strong>$5.98</strong></p>
 </div>
 
 <div class="form_div">
-<form class="form1">
+<form id="cart">
   <label for="quantity">Quantity</label>
   <input type="number" id="quantity" name="quantity">
   <input type="reset" value="RESET">
   <input type="submit" value="SUBMIT">
   <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset -->
 </form>
-<p id="total_amount">Total: $11.96</p>
+<p id="total">Total: $11.96</p>
 </div>
 <!-- <h3>Navigation Link</h3>
 <h5>CSS selector:</h5>

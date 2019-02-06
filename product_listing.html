@@ -6,6 +6,7 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/products.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet" >
+    <link href="css/grid.css" rel="stylesheet" >
 </head>
 <body>
    <header>
@@ -17,14 +18,26 @@
         <a class="logo" href="checkout.html#cart_section"><img class="icon" src="img/cart.png" alt="cart" width="30" height="30"></a>
       </div>
 
-      <nav id="main-nav">        
-        <a href="index.html">Home</a>
-        <a href="#about_us">About Us</a>
-        <a href="index.html#contact_us">Contact Us</a>
-        <a href="product_listing.html">Products</a>
-        <a href="checkout.html">Checkout</a>
-        <a href="#citations">Citations</a>
+      <div class="nav-2of2"> 
+      <nav id="main-nav">      
+   
+        <div class="nav-1of2"> 
+        <a href="#interactive_elements" id="nav">Home</a>
+        <a href="#about_us" id="nav">About Us</a>
+        <a href="#contact_us" id="nav">Contact Us</a>
+        </div>
+
+        <div class="nav-1of2"> 
+        <a href="product_listing.html" id="nav">Products</a>
+        <a href="checkout.html" id="nav">Checkout</a>
+        <a href="#citations" id="nav">Citations</a> 
+        </div>
+  
+      
       </nav>
+      </div>
+
+
       <h2>Product List</h2>
 
       <nav id="sub_nav">
