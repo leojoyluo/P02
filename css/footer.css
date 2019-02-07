@@ -1,0 +1,12 @@
+footer{
+	border-top: solid;
+	border-color: #475a4d;
+	border-radius: 2em;
+	clear: both;
+	margin-bottom: 2em;
+}
+footer p{
+	margin-top: 2em;
+/*	padding-left: 1em;
+*/	text-align: center;
+}

@@ -14,7 +14,6 @@ nav#sub_nav{
 	margin-left:0em;
 }
 nav#sub_nav a{
-
 	color: #d4a7fd;
 }
 nav#sub_nav a:hover{
@@ -34,4 +33,8 @@ h4{
 }
 .products p{
 	margin-bottom: 5em;
+}
+
+.element .products p{
+    margin-left: 0;
 }

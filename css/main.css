@@ -64,6 +64,11 @@ button-nav{
 .button-nav:hover{
     background-color: red;
 }*/
+
+.element .products p{
+    margin-left: 0;
+}
+
 nav#main-nav{
   background: #475a4d;
   text-align: center;
@@ -258,6 +263,7 @@ label{
   #color_palette{
     margin-left: 5%;
   }
+
 
 
 
