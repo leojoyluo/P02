@@ -48,7 +48,7 @@ header{
 /*  background-color: #FF99CC;
 */}
 section h4{
-  color:#475a4d;
+  color:#66CCCC;
 }
 input{
     color: #475a4d;
@@ -101,7 +101,7 @@ h1{
   color: #FF99CC;
 }
 h2 {
-  margin-top: 6rem;
+  margin-top: 4rem;
   background-color: #66CCCC;
   text-align: center;
   font-size: 2em;
@@ -124,7 +124,7 @@ h4 {
   font-size: 1.2em;
 text-align: center;
   border-bottom-style: dotted;
-  border-bottom-color: #475a4d 3px;
+  border-bottom-color: #66CCCC 3px;
 }
 
 p {

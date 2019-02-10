@@ -3,7 +3,7 @@
         padding-left: 5%;
 
 } */
-@media(min-width:50em){
+@media(min-width:60em){
       #contact_us ul li{
       margin-left: 35%; 
         margin-right: 35%; 
@@ -21,12 +21,16 @@
 div.products{
   text-align: center;
 }
-
-
-@media(min-width: 50em){
+/*@media(min-width: 60em){
+  div.products{
+    width: 200px;
+  }
+}
+*/
+@media(min-width: 60em){
   div.products{
     float: left;
-    width: 50%;
+    width: 100%;
     text-align: center;
   }
     .form_div{
@@ -36,6 +40,8 @@ div.products{
   }
 
 }
+
+
 h3,h2,h4{
   display: block;
   clear: both;
