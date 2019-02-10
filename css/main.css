@@ -27,6 +27,7 @@
 #Home p a{
   text-decoration: none;
   color: #475a4d;
+  background: #FF99CC;
 }
 #Home p a:hover{
   color: #d4a7fd;
@@ -40,7 +41,7 @@ section ol a p:hover{
   color: #d4a7fd;
 }
 body {
-  font-family: impact;
+  font-family: "Times New Roman";
   padding: 2rem;
 }
 header{
@@ -76,17 +77,18 @@ nav#main-nav{
 nav a{
   text-decoration: none;
   color: white;
-  font-family: impact;
+  font-family: "Times New Roman";
   margin-left: 2em;
   height: 100px;
 }
 nav ul{
   text-decoration: none;
   color: white;
-  font-family: impact;
+  font-family: "Times New Roman";
   height: 25px;
 }
 nav ul li{
+  font-family: "Times New Roman";
   list-style: none;
 }
 
@@ -96,11 +98,11 @@ nav ul li{
 
 }
 h1{
-  color: #475a4d;
+  color: #FF99CC;
 }
 h2 {
   margin-top: 6rem;
-  background-color: #475a4d;
+  background-color: #66CCCC;
   text-align: center;
   font-size: 2em;
   color: white;
@@ -108,20 +110,18 @@ h2 {
 
 h3{
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.7em;
   font-weight:bold;
   margin-top: 1rem;
   margin-bottom: 15px;
 /*  background: #d4a7fd;
-*/  color: #d4a7fd;
-  border-top: solid #475a4d 3px;
-  border-bottom: solid #475a4d 3px;
+*/  color: #FF99CC;
+  border-top: solid #66CCCC; 3px;
+  border-bottom: solid #66CCCC; 3px;
 }
 
 h4 {
-  margin-bottom: 1rem;
-/*  border-bottom: dotted #66CCCC 3px;
-*/  
+  font-size: 1.2em;
 text-align: center;
   border-bottom-style: dotted;
   border-bottom-color: #475a4d 3px;
@@ -137,7 +137,7 @@ p {
 
 nav a:hover {
   text-decoration: none;
-  color:#d4a7fd;
+  background-color: #66CCCC;
 }
 
 nav a:focus {

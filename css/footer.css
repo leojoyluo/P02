@@ -1,12 +1,18 @@
 footer{
+	margin-top: 12em;
 	border-top: solid;
-	border-color: #475a4d;
+	border-color: #66CCCC;
 	border-radius: 2em;
 	clear: both;
 	margin-bottom: 2em;
+    background: #FF99CC;
+    padding-bottom: 2em;
+    color: white;
+    font-size: 0.75em;
+    text-align: center;
 }
-footer p{
+footer ul li{
 	margin-top: 2em;
-/*	padding-left: 1em;
-*/	text-align: center;
+    text-align: center;
+	list-style: none;
 }

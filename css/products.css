@@ -7,17 +7,18 @@ nav#main-nav{
 
 
 nav#sub_nav{
-	background: red;
-	color: #d4a7fd;
-	text-align: center;
+	background: #66CCCC;
+/*	color: #66CCCC;
+*/	text-align: center;
 	width:100%;
 	margin-left:0em;
+	margin-top: 0;
 }
 nav#sub_nav a{
-	color: #d4a7fd;
+	color: white;
 }
 nav#sub_nav a:hover{
-	color: white;
+	background-color: #FF99CC;
 }
 .products figcaption{
 	display: none;
