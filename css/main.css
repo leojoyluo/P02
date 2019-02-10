@@ -2,13 +2,13 @@
   STYLE GUIDE STYLING 
   Default styling for the style guide 
 */
-.icon{
+/*.icon{
   margin: 50px;
   margin-bottom: 10px;
 }
 .logo:hover{
  opacity: 0.5;
-}
+}*/
 /*
    .icon is for the icons seprately
     #icons is for the group of icons
@@ -25,12 +25,10 @@
   text-align: center;
 }
 #Home p a{
-  text-decoration: none;
-  color: #475a4d;
-  background: #FF99CC;
+  color: #66CCCC;
 }
 #Home p a:hover{
-  color: #d4a7fd;
+  background: #FF99CC;
 }
 
 section ol a p{
@@ -263,6 +261,7 @@ label{
   #color_palette{
     margin-left: 5%;
   }
+
 
 
 

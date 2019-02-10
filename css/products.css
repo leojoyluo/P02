@@ -2,7 +2,9 @@ nav#main-nav{
 	background: #475a4d;
 	color: white;
 }
-
+#product_listing_content{
+	max-width: 60em;
+}
 
 
 

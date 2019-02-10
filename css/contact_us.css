@@ -1,0 +1,36 @@
+
+#contact_us_input{
+	background: lightgrey;
+	max-width: : 20em
+	background-opacity: 0.2;
+	margin-top: 1em;
+	text-align: center;
+}
+#contact_us_input p{
+	margin-left: 1.4em;
+	margin-top: 1em;
+}
+#contact_us_section{
+	max-width:60em;
+	text-align: center; 
+}
+#contact_us_section p{
+	text-align: left; 
+	margin-left: 1.4em;
+
+	margin-right: 1.4em;
+}
+label{
+	float: left;
+}
+
+button{
+	clear: both;
+}
+#tips_section{
+	width: 30em;
+	background: lightgrey;
+}
+#tips_section ul li{
+	text-align: left;
+}

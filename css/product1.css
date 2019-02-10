@@ -1,0 +1,20 @@
+img{
+	float: left;
+}
+#product1{
+	max-width: 60em;
+}
+#product1_des{
+	max-width: 30em;
+}
+h4{
+	max-width: 10em;
+}
+button a{
+	text-decoration: none;
+	color: #66CCCC;
+}
+button a:hover{
+	text-decoration: none;
+	color: #FF99CC;
+}

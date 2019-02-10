@@ -1,0 +1,16 @@
+section{
+	max-width: 60em;
+	text-align: center;
+}
+section p{
+	text-align: center;
+	margin-top: 8em;
+}
+button a{
+	text-decoration: none;
+	color: #66CCCC;
+}
+button a:hover{
+	text-decoration: none;
+	color: #FF99CC;
+}
