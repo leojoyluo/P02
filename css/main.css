@@ -18,11 +18,15 @@
      margin-left: 70%;
  } */
 
+#all_products{
+  color: #66CCCC;
+  margin-left: 5em;
+}
+#all_products:hover{
+  color: #FF99CC;
+}
 #citations{
   font-family:Arial ;
-}
-#Home p{
-  text-align: center;
 }
 #Home p a{
   color: #66CCCC;
@@ -33,10 +37,10 @@
 
 section ol a p{
   text-decoration: none;
-  color: #475a4d;
+  color: #66CCCC;
 }
 section ol a p:hover{
-  color: #d4a7fd;
+  color: #FF99CC;
 }
 body {
   font-family: "Times New Roman";
@@ -49,13 +53,13 @@ section h4{
   color:#66CCCC;
 }
 input{
-    color: #475a4d;
+    color: #66CCCC;
 }
 input:hover{
     color: #d4a7fd;
 }
 button-nav{
-    background-color: #475a4d;
+    color: #475a4d;
 }
 /*.button-nav{
     background-color: #d4a7fd;
