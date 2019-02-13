@@ -1,3 +1,9 @@
 #shopping_cart, #cart{
 	max-width: 60em;
+/*	min-width: 40em;
+*/}
+@media(min-width: 60em){
+	section{
+			margin-left: 15%;
+	}
 }

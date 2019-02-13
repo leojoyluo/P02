@@ -7,8 +7,9 @@ img{
 #product1_des{
 	max-width: 30em;
 }
-h4{
+section h4{
 	max-width: 10em;
+	float: left;
 }
 button a{
 	text-decoration: none;
@@ -17,4 +18,7 @@ button a{
 button a:hover{
 	text-decoration: none;
 	color: #FF99CC;
+}
+section p{
+	padding-top: 10em;
 }

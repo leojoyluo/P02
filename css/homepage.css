@@ -1,3 +1,7 @@
-#Home{
+/*#Home{
+  max-width: 60em;
+  min-width: 40em;
+}*/
+section{
   max-width: 60em;
 }

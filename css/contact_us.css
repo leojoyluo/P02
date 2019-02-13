@@ -28,7 +28,7 @@ button{
 	clear: both;
 }
 #tips_section{
-	width: 30em;
+	max-width: 30em;
 	background: lightgrey;
 }
 #tips_section ul li{

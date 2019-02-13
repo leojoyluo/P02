@@ -2,10 +2,15 @@ nav#main-nav{
 	background: #475a4d;
 	color: white;
 }
-#product_listing_content{
+#product_listing_content,#detail{
 	max-width: 60em;
+/*	min-width: 40em;
+*/}
+@media(min-width: 60em){
+	section{
+			margin-left: 15%;
+	}
 }
-
 
 
 nav#sub_nav{
