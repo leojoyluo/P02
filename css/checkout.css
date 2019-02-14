@@ -1,9 +1,8 @@
 #shopping_cart, #cart{
-	max-width: 60em;
+	padding-top:2em;
+	padding-bottom:2em;
+	max-width: 100%;
 /*	min-width: 40em;
 */}
-@media(min-width: 60em){
-	section{
-			margin-left: 15%;
-	}
+
 }

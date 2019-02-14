@@ -3,13 +3,13 @@ nav#main-nav{
 	color: white;
 }
 #product_listing_content,#detail{
-	max-width: 60em;
+	
+	padding-bottom:2em;
+	padding-top:2em;
 /*	min-width: 40em;
 */}
 @media(min-width: 60em){
-	section{
-			margin-left: 15%;
-	}
+
 }
 
 
@@ -43,6 +43,3 @@ h4{
 	margin-bottom: 5em;
 }
 
-.element .products p{
-    margin-left: 0;
-}

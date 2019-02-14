@@ -68,10 +68,6 @@ button-nav{
     background-color: red;
 }*/
 
-.element .products p{
-    margin-left: 0;
-}
-
 nav#main-nav{
   background: #475a4d;
   text-align: center;
@@ -95,7 +91,7 @@ nav ul li{
 }
 
 .element {
-  
+  text-align: center;
   border-top-width: 0.15rem;
 
 }
