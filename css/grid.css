@@ -1,21 +1,27 @@
 *, *:after, *:before{
     box-sizing: border-box;
 }
-
+/*
 [class^='nav-'] {
 
-	float: left;
+	
 	text-align: center;
 	flex-wrap: nowrap;
-}
+}*/
 
 .nav-2of2{
 	background-color: #FF99CC;
     width:100%;
   
 }
+label {
+    display: block;
+}
 
-
+a#nav {
+    padding: 15px 62px;
+}
+/*hover框的大小和字的间距*/
 
 
 #card_number{
@@ -24,7 +30,7 @@
 }
 
 #confirm{
-    margin-left:5em;
+    margin-left:-2.5em;
     margin-top:1em;
 }
 input{
@@ -33,9 +39,14 @@ input{
 {
     margin-left: 100px;
 }
-#main-nav{
-    margin-bottom:3em;
+#main-nav {
+    text-align: center;
+    display: block;
+
 }
+
+
+
 /* 不知道这个是控制哪里的。但是它影响了图片下面的字 所有先comment掉*/
 /*div p{
     margin-left: 70px;
@@ -44,6 +55,13 @@ input{
 div.products{
     width: 30%;
  
+}
+
+.nav-1of2 {
+    display: inline-block;
+    height: 100%;
+    padding: 14px ;
+
 }
 
 
@@ -57,14 +75,11 @@ div.products{
             margin-left:0em;
         }
     nav{
-        margin-top: 0.8em;
-        margin-left:8em;
+
+        /*margin-left:8em;*/
         width:100%; 
     }
-    #nav{
-        margin-left:10em;
 
-    }
        
 
     #total{
@@ -73,19 +88,15 @@ div.products{
 }
 @media (max-width:72em){
 
-    
+    .pay_detail{
+        margin-left:-30em;
+    }
       #cart{
 
         width:100%; 
     }
 
-    nav{
-        margin-left:9em;
-        width:100%; 
-    }
-    #nav{
-        margin-left:4em;
-    }
+    
     #cart_item{
         margin-left:0em;
     }
@@ -94,36 +105,35 @@ div.products{
 
 @media (max-width:60em){
 
-
-div.products{
-    width:100%;
-    margin-left:0em;
- 
-}
-
-
-@media (max-width:50em){
-
-
-div.products{
-    width:100%;
-    margin-left:0em;
- 
-}
-
-#nav{
-        margin-left:7em;
-
-    }
-
-    .nav-1of2{
+    div.products{
         width:100%;
-        margin-left:-12em;
-        margin-bottom:0.5em;
-        
+        margin-left:0em;
+     
     }
 
-    #cart_item{
+}
+
+
+@media (max-width:53em){
+
+
+    #nav{
+        display:block;
+        text-align: left;
+        width:8em;
+        flex-direction: column;
+    }
+    a#nav {
+    padding-left:40px;
+}
+
+div.products{
+    width:100%;
+    margin-left:0em;
+ 
+}
+
+#cart_item {
         margin-left:0em;
     }
 
@@ -131,6 +141,12 @@ div.products{
 
 @media (max-width:40em){
 
+#nav{
+        display:block;
+        text-align: left;
+        width:8em;
+        flex-direction: column;
+    }
  p#total{
     margin-left: 20em;
     }
@@ -141,10 +157,21 @@ div.products{
  #cart_item{
     margin-left:0em;
         }
+
+
 }
 
 
   @media (max-width:30em){
+    #nav{
+        display:block;
+        text-align: left;
+        width:8em;
+        flex-direction: column;
+    }
+
+    
+
       #cart{
         margin-left:0em;
         width:100%; 
@@ -159,8 +186,9 @@ div.products{
     p#total{
         margin-left:13em;
     }
-
+    
 
 }
+
 
 

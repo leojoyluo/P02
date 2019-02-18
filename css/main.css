@@ -68,27 +68,31 @@ button-nav{
     background-color: red;
 }*/
 
-nav#main-nav{
-  background: #475a4d;
-  text-align: center;
-}
-nav a{
+
+
+#main-nav a{
   text-decoration: none;
   color: white;
   font-family: "Times New Roman";
-  margin-left: 2em;
-  height: 100px;
+  height: 100%;
+  line-height: 100%;
+  
 }
-nav ul{
+
+/*#main-nav ul{
   text-decoration: none;
   color: white;
   font-family: "Times New Roman";
   height: 25px;
 }
-nav ul li{
+#main-nav ul li{
   font-family: "Times New Roman";
   list-style: none;
 }
+我看了一遍ul和li应该是没用了，帮我再检查下，没问题就直接删掉这里吧
+*/ 
+
+
 
 .element {
   text-align: center;
@@ -134,6 +138,7 @@ p {
 }
 
 nav a:hover {
+
   text-decoration: none;
   background-color: #66CCCC;
 }
@@ -219,7 +224,7 @@ label:focus{
 input{
   font-family: Arial;
   border: #475a4d solid 1px;
-  margin-left: 10px;
+  /*margin-left: 10px;*/
 }
 label{
     font-family: Arial;

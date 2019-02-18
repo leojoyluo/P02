@@ -4,5 +4,77 @@
 	max-width: 100%;
 /*	min-width: 40em;
 */}
+ 
+ #payment_heading{
+ 	margin-bottom:2em;
+ }
+ #bill{
+ 
+	width:100%;
+
+ }
+ .pay_detail{
+ 	text-align: left;
+ 	margin-left:24em;
+ }
+ .pay_detail label{
+ 	margin-left:0.6em;
+ }
+label {
+	display: block;
+}
+
+	input#form-name{
+		width: 15em;
+		height: 2em; 
+	}
+
+	input#form-email{
+		width: 15em;
+		height: 2em; 
+	}
+	
+	input#form-phone{
+		width: 15em;
+		height: 2em;
+	}
+	input#form-address{
+		width: 18em;
+		height: 2em;
+	}
+	input#form-card{
+		width: 18em;
+		height: 2em;
+	}
+	input#form-cardname{
+		width: 18em;
+		height: 2em;
+	}
+	input#form-plate{
+		width: 90%;
+		margin-top:1em;
+		margin-bottom:2em;
+	}
+	input#form-violation{
+		width: 90%;
+		margin-top:1em;
+		margin-bottom:2em;
+	}
+	
+	input#form-home{
+		width: 22em;
+		margin-top:1em;
+		margin-bottom:2em;
+	}
+
+input#form-csv{
+	width: 5em;
+}
+
+#card_type{
+	margin-left:0.7em;
+	margin-bottom:2em;
+}
+
 
 }
