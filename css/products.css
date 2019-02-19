@@ -1,19 +1,18 @@
 
-#product_listing_content,#detail{
+/*#product_listing_content,#detail{
 	
 	padding-bottom:2em;
-	padding-top:2em;
-/*	min-width: 40em;
-*/}
-@media(min-width: 60em){
+}*/
+@media(max-width: 49.5em){
 
 }
-
+.product-content{
+	display: flex;
+}
 
 nav#sub_nav{
 	background: #66CCCC;
-/*	color: #66CCCC;
-*/	text-align: center;
+	text-align: center;
 	width:100%;
 	margin-left:0em;
 	margin-top: 0;

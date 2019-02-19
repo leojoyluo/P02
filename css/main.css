@@ -28,21 +28,17 @@ section ol a p:hover{
 body {
   font-family: "Times New Roman";
 }
-header{
-/*  background-color: #FF99CC;
-*/}
-section h4{
-  color:#66CCCC;
-}
+
+
 input{
     color: #66CCCC;
 }
-input:hover{
+/*input:hover{
     color: #d4a7fd;
 }
 button-nav{
     color: #475a4d;
-}
+}*/
 /*.button-nav{
     background-color: #d4a7fd;
 }
@@ -98,17 +94,15 @@ h3{
   font-weight:bold;
   margin-top: 1rem;
   margin-bottom: 15px;
-/*  background: #d4a7fd;
-*/  color: #FF99CC;
+  color: #FF99CC;
   border-top: solid #66CCCC; 3px;
   border-bottom: solid #66CCCC; 3px;
 }
 
 h4 {
-  font-size: 1.2em;
-text-align: center;
-  border-bottom-style: dotted;
-  border-bottom-color: #66CCCC 3px;
+    border-bottom: dotted #66CCCC 3px;
+    text-align: center;
+    color: #66CCCC;
 }
 
 p {
@@ -162,7 +156,7 @@ section ol a p{
   background-color: rgb(200,200,200);
 }
 
-ul li a:focus{
+/*ul li a:focus{
  color: yellow;
 }
 ul li a:hover{
@@ -170,7 +164,7 @@ ul li a:hover{
 }
 a#intext_link:hover{
   color: #d4a7fd;
-}
+}*/
 a#intext_link:focus{
   color: yellow;
 }
@@ -205,12 +199,12 @@ label:focus{
 }
 input{
   font-family: Arial;
-  border: #475a4d solid 1px;
+  border: #66CCCC solid 1px;
   /*margin-left: 10px;*/
 }
 label{
     font-family: Arial;
-    color: #475a4d;
+    color: #66CCCC;
 }
 /*
    make the product list align with the centre, when the mouse hover,the image
@@ -226,7 +220,7 @@ label{
 
 
 /* Home  section*/
-#Home .css_selector{
+/*#Home .css_selector{
   text-align: left;
     color: #475a4d;
 }
@@ -243,11 +237,7 @@ label{
 
 #contact_us ul li span{
   font-family: Arial;
-}
-/*   */
-  #color_palette{
-    margin-left: 5%;
-  }
+}*/
 
 
 
