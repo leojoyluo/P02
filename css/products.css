@@ -1,27 +1,18 @@
 
-/*#product_listing_content,#detail{
-	
-	padding-bottom:2em;
-}*/
-@media(max-width: 49.5em){
-
+.product-content{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
 }
 .product-content{
 	display: flex;
+	justify-content: center;
 }
 
-nav#sub_nav{
-	background: #66CCCC;
+.products p{
 	text-align: center;
-	width:100%;
-	margin-left:0em;
-	margin-top: 0;
 }
-nav#sub_nav a{
-	color: white;
-}
-nav#sub_nav a:hover{
-	background-color: #FF99CC;
+
 }
 .products figcaption{
 	display: none;
@@ -38,4 +29,36 @@ h4{
 .products p{
 	margin-bottom: 5em;
 }
+/*The code below is for the product listing responsiveness*/
+@media(max-width: 29.5em){
+	.product-content{
+		flex-direction:column;
+	}
+	.products img{
+		display: inline;
+		vertical-align: middle;
+		margin-left: 10%; 
+	}
+	.products p{
+		display: inline;
+	}
+}
 
+
+}
+
+
+/* The code below is for the sub navagation in product page*/
+nav#sub_nav{
+	background: #66CCCC;
+	text-align: center;
+	width:100%;
+	margin-left:0em;
+	margin-top: 0;
+}
+nav#sub_nav a{
+	color: white;
+}
+nav#sub_nav a:hover{
+	background-color: #FF99CC;
+}
