@@ -1,6 +1,3 @@
-
-
-
 #all_products{
   color: #66CCCC;
   margin-left: 5em;
@@ -33,18 +30,7 @@ body {
 input{
     color: #66CCCC;
 }
-/*input:hover{
-    color: #d4a7fd;
-}
-button-nav{
-    color: #475a4d;
-}*/
-/*.button-nav{
-    background-color: #d4a7fd;
-}
-.button-nav:hover{
-    background-color: red;
-}*/
+
 
 
 
@@ -56,20 +42,6 @@ button-nav{
   line-height: 100%;
   
 }
-
-/*#main-nav ul{
-  text-decoration: none;
-  color: white;
-  font-family: "Times New Roman";
-  height: 25px;
-}
-#main-nav ul li{
-  font-family: "Times New Roman";
-  list-style: none;
-}
-我看了一遍ul和li应该是没用了，帮我再检查下，没问题就直接删掉这里吧
-*/ 
-
 
 
 .element {
@@ -137,9 +109,6 @@ section ol a p{
   text-decoration: none;
 }
 
-/* 
-  INTERACTIVE ELEMENTS -------------------
-*/
 
 /* Styling for the navigation button */
 .button-nav {
@@ -156,56 +125,45 @@ section ol a p{
   background-color: rgb(200,200,200);
 }
 
-/*ul li a:focus{
- color: yellow;
-}
-ul li a:hover{
- color: #d4a7fd;
-}
-a#intext_link:hover{
-  color: #d4a7fd;
-}*/
+
 a#intext_link:focus{
   color: yellow;
 }
+
 /*codes BELOW are the different looks for the image's different states:hover, focus
 */
-#image:hover{
-/* width: 125%;
- height: 125%;
-*/
- opacity: 0.8;
+  #image:hover{
 
-}
-#image:focus{
-/* width: 125%;
- height: 125%;
-*/
- opacity:0.2;
-}
-#image img{
-  text-align: center;
-  width: 100%;
-}
+   opacity: 0.8;
+
+  }
+  #image:focus{
+
+   opacity:0.2;
+  }
+  #image img{
+    text-align: center;
+    width: 100%;
+  }
 
 /*label & input style
 */
 
-label:hover{
-  color: black;
-}
-label:focus{
-  color: yellow;
-}
-input{
-  font-family: Arial;
-  border: #66CCCC solid 1px;
-  /*margin-left: 10px;*/
-}
-label{
+  label:hover{
+    color: black;
+  }
+  label:focus{
+    color: yellow;
+  }
+  input{
     font-family: Arial;
-    color: #66CCCC;
-}
+    border: #66CCCC solid 1px;
+    /*margin-left: 10px;*/
+  }
+  label{
+      font-family: Arial;
+      color: #66CCCC;
+  }
 /*
    make the product list align with the centre, when the mouse hover,the image
   will change its opacity and the name of the product will be underline
@@ -219,25 +177,6 @@ label{
   }
 
 
-/* Home  section*/
-/*#Home .css_selector{
-  text-align: left;
-    color: #475a4d;
-}
-#card_section .css_selector{
-    color: #475a4d;
-
-}
-#payment_section .css_selector{
-      color: #475a4d;
-
-}
-
-
-
-#contact_us ul li span{
-  font-family: Arial;
-}*/
 
 
 

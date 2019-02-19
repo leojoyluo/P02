@@ -9,23 +9,11 @@ body{
     width:100%;
   
 }
-/*label {
-    display: block;
-}*/
 
 a.nav {
     padding: 15px 62px;
 }
-/*hover框的大小和字的间距*/
 
-
-
-/*input{
-    margin-bottom: 25px;
-}
-{
-    margin-left: 100px;
-}*/
 #main-nav {
     text-align: center;
     display: block;
@@ -33,11 +21,6 @@ a.nav {
 }
 
 
-
-/*div.products{
-    width: 30%;
- 
-}*/
 
 .nav-1of2 {
     display: inline-block;
@@ -49,44 +32,14 @@ a.nav {
 
 @media (max-width:150em){
 
-/*    div.products{
-    width: 30%;
- 
-}
-    #cart_item{
-            margin-left:0em;
-        }*/
+
     nav{
         width:100%; 
     }
 
 }
-/*@media (max-width:72em){
 
-    .pay_detail{
-        margin-left:-30em;
-    }
-      #cart{
 
-        width:100%; 
-    }
-
-    
-    #cart_item{
-        margin-left:0em;
-    }
-}   
-*/
-
-@media (max-width:60em){
-
-/*    div.products{
-        width:100%;
-        margin-left:0em;
-     
-    }*/
-
-}
 
 
 @media (max-width:53em){
@@ -102,17 +55,6 @@ a.nav {
     padding-left:40px;
 }
 
-/*div.products{
-    width:100%;
-    margin-left:0em;
- 
-}*/
-/*
-#cart_item {
-        margin-left:0em;
-    }*/
-
-}
 
 @media (max-width:40em){
 
@@ -122,47 +64,16 @@ a.nav {
         width:8em;
         flex-direction: column;
     }
-/* p#total{
-    margin-left: 20em;
-    }
- #card_number{
-    width:65%;
-    margin-left:0em;
-    }
- #cart_item{
-    margin-left:0em;
-        }*/
-
-
 }
 
 
-  @media (max-width:30em){
+@media (max-width:30em){
     #nav{
         display:block;
         text-align: left;
         width:8em;
         flex-direction: column;
     }
-
-    
-/*
-      #cart{
-        margin-left:0em;
-        width:100%; 
-    }
-
-        #quantity{
-            width:25%;
-        }
-        #cart_item{
-            margin-left:0em;
-        }
-    p#total{
-        margin-left:13em;
-    }*/
-    
-
 }
 
 
