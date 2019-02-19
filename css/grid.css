@@ -1,14 +1,9 @@
 *, *:after, *:before{
     box-sizing: border-box;
 }
-/*
-[class^='nav-'] {
-
-	
-	text-align: center;
-	flex-wrap: nowrap;
-}*/
-
+body{
+    min-width: 30em;
+}
 .nav-2of2{
 	background-color: #FF99CC;
     width:100%;
@@ -18,7 +13,7 @@ label {
     display: block;
 }
 
-a#nav {
+a.nav {
     padding: 15px 62px;
 }
 /*hover框的大小和字的间距*/
@@ -47,11 +42,6 @@ input{
 
 
 
-/* 不知道这个是控制哪里的。但是它影响了图片下面的字 所有先comment掉*/
-/*div p{
-    margin-left: 70px;
-}
-*/
 div.products{
     width: 30%;
  
@@ -75,16 +65,9 @@ div.products{
             margin-left:0em;
         }
     nav{
-
-        /*margin-left:8em;*/
         width:100%; 
     }
 
-       
-
-    #total{
-    margin-left: 30em;
-    }
 }
 @media (max-width:72em){
 

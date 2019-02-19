@@ -1,8 +1,4 @@
-/* @media(max-width:5em){
-    h2,h3{
-        padding-left: 5%;
-
-} */
+/*
 @media(min-width:60em){
       #contact_us ul li{
       margin-left: 35%; 
@@ -21,12 +17,7 @@
 div.products{
   text-align: center;
 }
-/*@media(min-width: 60em){
-  div.products{
-    width: 200px;
-  }
-}
-*/
+
 @media(min-width: 60em){
   div.products{
     float: left;
@@ -54,3 +45,4 @@ body{
 }
 
 
+*/

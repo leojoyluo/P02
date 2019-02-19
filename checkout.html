@@ -5,225 +5,168 @@
   <title>Home's Tea  - Checkout Page </title>
   <link href="css/main.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet" >
-  <link href="css/grid.css" rel="stylesheet" >
   <link href="css/footer.css" rel="stylesheet" >
     <link href="css/checkout.css" rel="stylesheet">
-     <link href="css/products.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet" >
+<!--     <link href="css/about_us_style.css" rel="stylesheet" >
+ --></head>
 
-    <link href="css/homepage.css" rel="stylesheet" >
-    <link href="css/about_us_style.css" rel="stylesheet" >
-</head>
-
- <header>
-  <h1>Home's Tea  - Checkout</h1>
-
-  <p class ="quote">"<dfn>TEA</dfn> defines the way you live."<cite>Home's Tea</cite></p>
-<!--   <div id="icons">
- --><!--     <a class="logo" href="index.html#login_section"><img class="icon" src="img/login.png" alt="login" width="30" height="30"></a>
-    <a class="logo" href="#cart_section"><img class="icon" src="img/cart.png" alt="cart" width="30" height="30"></a>
-  </div> -->
-
-
-    <nav id="main-nav">      
-      <div class="nav-2of2"> 
-
-        <div class="nav-1of2"> 
-        <a href="homepage.html" id="nav">Home</a>
-        <a href="product_listing.html" id="nav">Products</a>
-        </div>
-
-        <div class="nav-1of2" id="nav-bottom"> 
-        <a href="checkout.html" id="nav">Checkout</a>       
-        <a href="contact_us.html" id="nav">Contacts</a>
-        </div>
-  
-      </div>
-    </nav>
-      
-
-
-</header>
 
 <body>
+   <header>
+      <h1>Home's Tea  - Checkout</h1>
 
-<section class="element" >        
-<!--          <h4>Shopping Cart</h4>
--->
-<div id="shopping_cart">
-    <h2 id="cart_section">Shopping Cart</h2>
-</div>
-  <p id="cart_item">bear trap <strong>$5.98</strong></p>
+      <p class ="quote">"<dfn>TEA</dfn> defines the way you live."<cite>Home's Tea</cite></p>
 
+        <nav id="main-nav">      
+          <div class="nav-2of2"> 
 
-  <div>
-    <form id="cart">
-      <label for="quantity">Quantity</label>
-      <input type="number" id="quantity" name="quantity">
-      <input type="reset" value="RESET">
-      <input type="submit" value="SUBMIT">
-    </form>
-    </div>
-<div>
-  <p id="cart_item">matcha <strong>$5.98</strong></p>
-</div>
+            <div class="nav-1of2"> 
+            <a href="homepage.html" class="nav">Home</a>
+            <a href="product_listing.html" class="nav">Products</a>
+            </div>
 
-<div class="form_div">
-<form id="cart">
-  <label for="quantity">Quantity</label>
-  <input type="number" id="quantity" name="quantity">
-  <input type="reset" value="RESET">
-  <input type="submit" value="SUBMIT">
-  <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset -->
-</form>
-<p id="total">Total: $11.96</p>
-</div>
-<!-- <h3>Navigation Link</h3>
-<h5>CSS selector:</h5>
-<p class="css_selector">#cart_section a</p>
- -->
-<!-- <h5>Sample code:</h5>
-<code>&lt;a href="#" class="button"&gt;Checkout&lt;/a&gt;</code>
+            <div class="nav-1of2" id="nav-bottom"> 
+            <a href="checkout.html" class="nav">Checkout</a>       
+            <a href="contact_us.html" class="nav">Contacts</a>
+            </div>
+      
+          </div>
+        </nav>
 
-<h4>Rendered element:</h4>
+</header>
+  
+  <h2 id="cart_section">YOUR CART</h2>
 
-<a class="button-nav" href="#">Checkout</a> -->
+   <div class = "container" >
+      <div class = "cart-content" id="shopping_cart"> 
+         <div class="cart-heading">
+            <div class="heading-name" id="heading1">Product</div>
+            <div class="heading-name" id="heading2">Quantity/Price</div>
+         </div>
 
-</section>
+              <div class = "cart-row" >
+                  <div class="row-item">
+                  <span><img src="img/original%20green.png" width="200" height=auto alt="original_green_tea"></span>
+                    <div class="row-item">
+                      <p>original green tea <strong>$5.98</strong></p>
+                    </div>       
+                 </div>
 
-<section class="element" id="payment_section">
-<!--            <h4>Payment</h3>
--->
- <!-- <h3>Text Input with Label</h4>
-   <h5>CSS selector:</h5>
-   <p class="css_selector">label</p>
-   <h5>Sample code:</h5>
-   <code>&lt;label for="card_number"&gt;Username&lt;/label&gt;</code>
-   <code>&lt;input type="number" id="quantity" name="card_number"&gt;</code>
-   <code>&lt;input type="reset" value="RESET"&gt;</code> -->
-  <form id="cart">
-   <div class="form_div">
-    <h2 id="payment_heading">Payment</h2>
-    <div class="pay_detail">
-                           <form method="post" action="#">         
-                            <label for="form-name">Name:</label>
-                            <input type="text" id="form-name"  placeholder="Jane Doe" title="Please Enter Your Name">
-                            
-                            <label for="form-phone">Phone Number:</label>
-                            <input type="text" id="form-phone" size="1" placeholder="604-888-8888"  title="Please Enter Your Phone Number">
+                  <form class="row-item">
+                    <label>Quantity</label>
+                    <input type="number" name="quantity">
+                    <input type="reset" value="RESET">
+                    <input type="submit" value="SUBMIT">
+                  </form>
+                </div>
 
-                            <label for="form-email">Email:</label>
-                            <input type="text" id="form-email" size="1" placeholder="hello@burnaby.ca" title="Please Enter Your E-mail">
-                            
-                            <label for="form-address">Home Address</label>
-                            <input id="form-address" placeholder="Wanahakalugi" title="Please Enter Your Address">
-                          </form>
+              <div class="cart-row">
+                <div class="row-item">
+                  <span ><img src="img/rose%20all%20day.jpg" width="200" height=auto alt="rose_all_day"></span>
+                    <div class="row-item">
+                      <p>rose all day <strong>$7.98</strong></p>
+                    </div>
+                  </div>
+                    <form class="row-item">
+                    <label>Quantity</label>
+                    <input type="number" name="quantity">
+                    <input type="reset" value="RESET">
+                    <input type="submit" value="SUBMIT">
+                    <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset -->
+                  </form>
+                
+              </div>
 
-                          <form method="post" action="#" id="bill">
-                            
-                            <label>Select Card Type</label>
-                            <select id="card_type">
-                            <option value="visa">Visa</option>
-                            <option value="masterCard">Master Card</option>
-                            <option value="americaExpress">American Express</option>
-                            <option value="bank">Bank Transfer</option>
-                        </select>
-
-                            <label for="form-cardname">Name on Credit Card:</label>
-                            <input type="text" id="form-cardname" placeholder="Jane Doe" title="Please Enter The Name On Credit Card">
-
-                            <label for="form-card">Credit Card Number:</label>
-                            <input type="text" id="form-card" maxlength="16" placeholder="xxxx-xxxx-xxxx-xxxx"  title="Please Enter A 16-digit Credit Card Number">
-                            
-                            <label>Expiary Month/Year:</label>
-                            <select id="card_type">
-                            <option value="Jan">Jan</option>
-                            <option value="Feb">Feb</option>
-                            <option value="Mar">Mar</option>
-                            <option value="Apr">Apr</option>
-                            <option value="May">May</option>
-                            <option value="Jun">Jun</option>
-                            <option value="Jul">Jul</option>
-                            <option value="Aug">Aug</option>
-                            <option value="Sep">Sep</option>
-                            <option value="Oct">Oct</option>
-                            <option value="Nov">Nov</option>
-                            <option value="Dec">Dec</option>
-                        </select>
-
-                        <select>
-                            <option value="2015">2015</option>
-                            <option value="2016">2016</option>
-                            <option value="2017">2017</option>
-                            <option value="2018">2018</option>
-                            <option value="2019">2019</option>
-                        </select>
-                      
+            
+        
+      </div>
 
 
-                            <label for="form-csv">CSV:</label>
-                            <input type="text" id="form-csv" maxlength="3" placeholder="xxx"  title="Please Enter CSV">
-                        </form>
-</div>
-</div>
- <!--     <form>
-      <label for="card_number">Credit / Debit Card Number:</label>
-      <input type="number" id="card_number" name="card_number">
-      <input type="reset" value="RESET">
-    </form>
+       <div class = "cart-summary" >
+        <div class="summary-heading">Order Summary</div>
+        <div class="summary-content">
+             <span>Subtotal: $13.96</span>  
+             <span>Sales Tax: $0.00</span> 
+        </div class="summary-content">
+             <span id="summary-total">Estimated Total: $11.96</span>
+       </div>
+
   </div>
 
-  <div class="form_div">
-    <form id="cart">
-      <label for="card_cvv">CVV:</label>
-      <input type="number" id="card_cvv" name="card_cvv">
-      <input type="reset" value="RESET">
-    </form>
-  </div>
-
-  <div class="form_div">
-    <form id="cart">
-      <label for="card_date">Expire Date:</label>
-      <input type="date" id="card_date" name="card_date">
-      <input type="reset" value="RESET">
-    </form>
-  </div>
-
-  </form>
-
-  <!-- <h3>Navigation Link</h3>
-
-  <h5>CSS selector:</h5>
-  <p class="css_selector">.button-nav</p>
-
-  <h5>Sample code:</h5>
-  <code>&lt;a href="#" class="button"&gt;Confirm Payment&lt;/a&gt;</code>
-
-  <h4>Rendered element:</h4>
+<!--       <section class="element" id="payment_section">
+          <h2 id="payment_heading">Payment</h2>
  -->
-  <a class="button-nav" href="#" id="confirm">Confirm Payment</a>
+       <!--  <form>
+         <div class="form_div">
+          <div class="pay_detail">
+                                 <form method="post" action="#">         
+                                  <label for="form-name">Name:</label>
+                                  <input type="text" id="form-name"  placeholder="Jane Doe" title="Please Enter Your Name">
+                                  
+                                  <label for="form-phone">Phone Number:</label>
+                                  <input type="text" id="form-phone" size="1" placeholder="604-888-8888"  title="Please Enter Your Phone Number">
+
+                                  <label for="form-email">Email:</label>
+                                  <input type="text" id="form-email" size="1" placeholder="hello@burnaby.ca" title="Please Enter Your E-mail">
+                                  
+                                  <label for="form-address">Home Address</label>
+                                  <input id="form-address" placeholder="Wanahakalugi" title="Please Enter Your Address">
+                                </form>
+
+                                <form method="post" action="#" id="bill">
+                                  
+                                  <label>Select Card Type</label>
+                                  <select id="card_type">
+                                  <option value="visa">Visa</option>
+                                  <option value="masterCard">Master Card</option>
+                                  <option value="americaExpress">American Express</option>
+                                  <option value="bank">Bank Transfer</option>
+                              </select>
+
+                                  <label for="form-cardname">Name on Credit Card:</label>
+                                  <input type="text" id="form-cardname" placeholder="Jane Doe" title="Please Enter The Name On Credit Card">
+
+                                  <label for="form-card">Credit Card Number:</label>
+                                  <input type="text" id="form-card" maxlength="16" placeholder="xxxx-xxxx-xxxx-xxxx"  title="Please Enter A 16-digit Credit Card Number">
+                                  
+                                  <label>Expiary Month/Year:</label>
+                                  <select id="card_type">
+                                  <option value="Jan">Jan</option>
+                                  <option value="Feb">Feb</option>
+                                  <option value="Mar">Mar</option>
+                                  <option value="Apr">Apr</option>
+                                  <option value="May">May</option>
+                                  <option value="Jun">Jun</option>
+                                  <option value="Jul">Jul</option>
+                                  <option value="Aug">Aug</option>
+                                  <option value="Sep">Sep</option>
+                                  <option value="Oct">Oct</option>
+                                  <option value="Nov">Nov</option>
+                                  <option value="Dec">Dec</option>
+                              </select>
+
+                              <select>
+                                  <option value="2015">2015</option>
+                                  <option value="2016">2016</option>
+                                  <option value="2017">2017</option>
+                                  <option value="2018">2018</option>
+                                  <option value="2019">2019</option>
+                              </select>
+                            
 
 
-</section>
+                                  <label for="form-csv">CSV:</label>
+                                  <input type="text" id="form-csv" maxlength="3" placeholder="xxx"  title="Please Enter CSV">
+                              </form> -->
+<!--       </div>
+      </div>
+       
+        <a class="button-nav" href="#" id="confirm">Confirm Payment</a>
 
 
-<!-- <section id="contact_us">
-  <h2>Contact Us</h2>
-       <h2>Contact Us</h2>
-       <ul>
-  <li>A TEA STORE For Young People</li>
-  <LI>Font: <span>Arial</span>, Impact</LI>
-  <li>Color Palette: White,Violet（#d4a7fd）,Red
-    <img src="img/color.png" alt="color_palette" width="300" height="185"></li>
-    <li>2662 Happy Street Burnaby B.C. Canada</li>
-    <li>Phone:    7788611111</li>
-    <li>Hours:    11am - 8 pm(Work days)</li>
-    <li>Website: www.JoysTEA.ca</li>
-  </ul>
-  <img src="img/teapot.png" alt="teapot" width="200" height="200">
-</section>
- -->
+      </section> -->
 
-</body>
 
  <footer>
   <h4>HOMES TEA</h4>
@@ -235,5 +178,9 @@
     <li>www.HomesTEA.ca</li>
   </ul>
  </footer>
+
+
+</body>
+
 
 </html>

@@ -1,22 +1,5 @@
-/*
-  STYLE GUIDE STYLING 
-  Default styling for the style guide 
-*/
-/*.icon{
-  margin: 50px;
-  margin-bottom: 10px;
-}
-.logo:hover{
- opacity: 0.5;
-}*/
-/*
-   .icon is for the icons seprately
-    #icons is for the group of icons
-*/
 
- /* #icons{
-     margin-left: 70%;
- } */
+
 
 #all_products{
   color: #66CCCC;
@@ -44,7 +27,6 @@ section ol a p:hover{
 }
 body {
   font-family: "Times New Roman";
-  padding: 2rem;
 }
 header{
 /*  background-color: #FF99CC;
@@ -270,28 +252,3 @@ label{
 
 
 
-/*  responsive for the homepage image */
-<<<<<<< Updated upstream
-/* @media(min-width:30em){
-    #homepage_img{
-      width: 100%;
-      height: auto
-    }
-
-} */
-=======
-
->>>>>>> Stashed changes
-
-
-
-/* 
-  TEXT ELEMENTS -------------------
-*/
-
-
-
-
-/* 
-  COMBINED ELEMENTS -------------------
-*/
