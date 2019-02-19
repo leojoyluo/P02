@@ -47,7 +47,7 @@
 
               <div class = "cart-row" >
                   <div class="row-item">
-                  <span><img src="img/original%20green.png" width="200" height=auto alt="original_green_tea"></span>
+                  <span><img src="img/original%20green.png" width=auto height=auto alt="original_green_tea"></span>
                     <div class="row-item">
                       <p>original green tea <strong>$5.98</strong></p>
                     </div>       
@@ -55,24 +55,35 @@
 
                   <form class="row-item">
                     <label>Quantity</label>
-                    <input type="number" name="quantity">
+                    <select>
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                              </select>
+                   <!--  <input type="number" name="quantity">
                     <input type="reset" value="RESET">
-                    <input type="submit" value="SUBMIT">
+                    <input type="submit" value="SUBMIT"> -->
                   </form>
                 </div>
 
               <div class="cart-row">
                 <div class="row-item">
-                  <span ><img src="img/rose%20all%20day.jpg" width="200" height=auto alt="rose_all_day"></span>
+                  <span ><img src="img/rose%20all%20day.jpg" width=auto height=auto alt="rose_all_day"></span>
                     <div class="row-item">
                       <p>rose all day <strong>$7.98</strong></p>
                     </div>
                   </div>
                     <form class="row-item">
                     <label>Quantity</label>
-                    <input type="number" name="quantity">
-                    <input type="reset" value="RESET">
-                    <input type="submit" value="SUBMIT">
+                              <select>
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                              </select>
                     <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset -->
                   </form>
                 
@@ -88,16 +99,20 @@
         <div class="summary-content">
              <span>Subtotal: $13.96</span>  
              <span>Sales Tax: $0.00</span> 
-        </div class="summary-content">
-             <span id="summary-total">Estimated Total: $11.96</span>
-       </div>
+              <div class="summary-content">
+                   <span id="summary-total">Estimated Total: $11.96</span>
+             </div>
+             <div class="summary-content">
+                  <a class="button-nav" href="#" id="checkout">Checkout</a>
+             </div>
+        </div>
+      </div>
+    </div>
 
-  </div>
+      <section class="element" id="payment_section">
+          <h2 id="payment_heading">PAYMENT</h2>
 
-<!--       <section class="element" id="payment_section">
-          <h2 id="payment_heading">Payment</h2>
- -->
-       <!--  <form>
+        <!-- <form>
          <div class="form_div">
           <div class="pay_detail">
                                  <form method="post" action="#">         
@@ -159,13 +174,12 @@
                                   <label for="form-csv">CSV:</label>
                                   <input type="text" id="form-csv" maxlength="3" placeholder="xxx"  title="Please Enter CSV">
                               </form> -->
-<!--       </div>
+      </div>
       </div>
        
         <a class="button-nav" href="#" id="confirm">Confirm Payment</a>
 
-
-      </section> -->
+      </section>
 
 
  <footer>

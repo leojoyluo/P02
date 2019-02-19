@@ -1,11 +1,17 @@
 body{
 
 }
+div.cart-content{
+	width: 55%;
+	max-width: 35em;
+}
 /*The code below is for main shopping cart */
 div.cart-heading{
 	background-color: #FF99CC;
 }
-
+span img{
+	width: 50%;
+}
 .heading-name{
 	display: inline-flex;	
 	margin-left: 2em;
@@ -30,22 +36,26 @@ div.cart-heading{
 	padding-top: 3em;
 	text-align: right;
 	padding-left: 6em;
-	width: 20em;
+	max-width: 20em;
+	min-width: 15em;
+	margin-right: 2em;
 }
 form.row-item{
    display: inline-block;
-   padding-left: 24em;
-   padding-top: -8em;
-   width:35em; 
+   text-align: right;
+   padding-left: 7em;
+   padding-bottom:2em;
+   max-width:35em; 
+   padding-right:2em;
 }
+
 .cart-content, .cart-row{
 	border: solid #FF99CC 1px;
 }
 .container{
 	display: flex;
 	justify-content: center;
-/*	align-items: center;
-*/}
+}
 
 
 /*The code below is for order summary  */
@@ -60,7 +70,7 @@ form.row-item{
 }
 .cart-summary{
 	margin-left: 1.2em;
-	width: 15em;
+	width: 25%;
 /*	flex-basis: 25.35%;
 */	border: solid #FF99CC 2px;
 	height: 17em;
@@ -77,8 +87,14 @@ form.row-item{
 	padding-top: 1em;
 	font-size: 1.12em;
 	border-top: solid  #66CCCC 3px;
+	min-width: 25%;
 }
-
+.summary-content a{
+	background: #66CCCC;
+	font-size: 1.25em;
+	text-align: center;
+	width: 100%;
+}
 
 
 
