@@ -1,16 +1,15 @@
-body{
-
-}
-div.cart-content{
-	width: 55%;
-	max-width: 35em;
+@media(min-width: 49.5em){
+	div.cart-content{
+		width: 55%;
+		max-width: 35em;
+	}
 }
 /*The code below is for main shopping cart */
 div.cart-heading{
 	background-color: #FF99CC;
 }
 span img{
-	width: 50%;
+	width: 80%;
 }
 .heading-name{
 	display: inline-flex;	
@@ -52,10 +51,13 @@ form.row-item{
 .cart-content, .cart-row{
 	border: solid #FF99CC 1px;
 }
+
+
 .container{
 	display: flex;
 	justify-content: center;
 }
+
 
 
 /*The code below is for order summary  */
@@ -98,87 +100,54 @@ form.row-item{
 
 
 
+/* THe code below is for the payment section*/
 
-
-
-
-/*
-#shopping_cart, #cart{
-	padding-top:2em;
-	padding-bottom:2em;
-	max-width: 100%;
+.container2{
+	width: 55%;
+	justify-content: center;
+	min-width: 25em;
+	max-width: 35em;
 }
- 
- #payment_heading{
- 	margin-bottom:2em;
- }
- #bill{
- 
-	width:100%;
-
- }
- .pay_detail{
- 	text-align: left;
- 	margin-left:24em;
- }
- .pay_detail label{
- 	margin-left:0.6em;
- }
-label {
-	display: block;
+.form-row{
+	padding: 10px 0;
+	display: flex;
+}
+.form-row label{
+	padding-right: 10px;
+	display: inline;
 }
 
-	input#form-name{
-		width: 15em;
-		height: 2em; 
-	}
+.form-row input{
+	flex:1;
+}
+.form-row a{
+	background: #66CCCC;
+	font-size: 1.25em;
+	text-align: center;
+	width: 100%;
+}
 
-	input#form-email{
-		width: 15em;
-		height: 2em; 
+
+/*The code below is for the resposiveness*/
+@media(max-width: 49.5em){
+	.container{
+		flex-direction:column;
+		align-items: center;
 	}
-	
-	input#form-phone{
-		width: 15em;
-		height: 2em;
-	}
-	input#form-address{
-		width: 18em;
-		height: 2em;
-	}
-	input#form-card{
-		width: 18em;
-		height: 2em;
-	}
-	input#form-cardname{
-		width: 18em;
-		height: 2em;
-	}
-	input#form-plate{
+	.cart-content{
 		width: 90%;
-		margin-top:1em;
-		margin-bottom:2em;
-	}
-	input#form-violation{
+/*		max-width: 55em;
+*/	}
+	.cart-summary{
 		width: 90%;
-		margin-top:1em;
-		margin-bottom:2em;
+		margin-left: 0;
 	}
+	#payment_heading{
+		margin-top: 4em;
+	}
+	.container2{
+		width: 90%;
+	}
+
 	
-	input#form-home{
-		width: 22em;
-		margin-top:1em;
-		margin-bottom:2em;
-	}
-
-input#form-csv{
-	width: 5em;
 }
-
-#card_type{
-	margin-left:0.7em;
-	margin-bottom:2em;
-}
-
-
-}*/
