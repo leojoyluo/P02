@@ -1,38 +1,47 @@
 
-#contact_us_input{
+.container{
+	display: flex;
+	align-items: center;
+	margin-left: 15%;
+	margin-right:15%;
+}
+.contact-row{
+	display: flex;
+	justify-content: flex-start;
+	min-width: 22em;
+	flex-wrap: wrap;
+	padding-right: 1.5em;
+	padding-top: 3em;
+
+}
+@media(max-width: 49.5em){
+	.container{
+		flex-direction:column;
+	}
+}
+#contact-us-input{
 	background: lightgrey;
 	max-width: : 20em
 	background-opacity: 0.2;
 	margin-top: 1em;
-	text-align: center;
+	padding: 1em;
 }
-#contact_us_input p{
-	margin-left: 1.4em;
+#send-button{
+	text-align: right;
+	padding-right: 1em;
+}
+#send-button button:hover{
+	color: #FF22CC;
+}
+
+
+
+#our-tips{
+	padding-top: 0;
 	margin-top: 1em;
+	margin-bottom: 2em;
 }
-#contact_us_section{
-
-	padding-top:2em;
-	padding-bottom:2em;
-	text-align: center; 
-}
-#contact_us_section p{
-	text-align: left; 
-	margin-left: 1.4em;
-
-	margin-right: 1.4em;
-}
-label{
-	float: left;
-}
-
-button{
-	clear: both;
-}
-#tips_section{
-	max-width: 30em;
-	background: lightgrey;
-}
-#tips_section ul li{
-	text-align: left;
+#gif{
+	display: flex;
+	justify-content: center;
 }
