@@ -35,13 +35,18 @@
 	min-width: 8em;
 }
 
-button a{
+.product-element a{
 	text-decoration: none;
-	color: black;
-/*	min-width: 15em;
-*/}
-button a:hover{
-	color: #FF99CC;
+	color: white;
+	background: #66CCCC;
+    font-size: 1.25em;
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+    transition-duration: 0.5s;
+}
+.product-element a:hover{
+	background-color: grey;
 }
 @media(max-width: 49.95em){
 	#product-container{
