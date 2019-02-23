@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
 
@@ -13,7 +13,7 @@
 
   </head>
 
-     </header>
+
     
   <body>
 
@@ -58,7 +58,7 @@
         <h5>Sample code:</h5>
         <code>&lt;a id="image" href="product_listing.html">&lt;img src="img/homepage.jpg" alt="Smiley face" width="1300" height="600"&gt; &lt;/a&gt;</code>
         <h4 class="style-guide-heading">Rendered element:</h4>
-        <a id="image" href="product_listing.html"><img src="img/homepage.jpg" alt="Smiley face" width=100%  height=auto></a>
+        <a id="image" href="product_listing.html"><img src="img/homepage.jpg" alt="Smiley face" ></a>
 
         
       </section>
@@ -66,7 +66,7 @@
 
       <section class="element">
 
-   <h3 class="style-guide-heading">Numbered List</h4>
+   <h3 class="style-guide-heading">Numbered List</h3>
        <h5>CSS selector:</h5>
         <p class="css_selector">ol li</p>
         <h5>Sample code:</h5>
@@ -77,14 +77,14 @@
           <li>cotton candy —— $7.98</li>   
           <li>flamingo —— $8.98</li>
           <li>elepahant —— $7.98</li>
-          <a id="intext_link" href="product_listing.html"><p>All Products</p></a>
-
         </ol>
+         <span>
+          <a id="intext_link" href="product_listing.html">All Products</a></span>
       </section>
 
 
       <section class="element" id="levels-heading">   
-       <h3 class="style-guide-heading">4 Levels of Headings</h4>
+       <h3 class="style-guide-heading">4 Levels of Headings</h3>
            <h5>CSS selector:</h5>
             <p class="css_selector">h1,h2,h3,h4</p>
             <h5>Sample code:</h5>
@@ -124,7 +124,7 @@
 
 
       <section class="element" id="login_section">
-        <h3 class="style-guide-heading">Text Input with Label</h4>
+        <h3 class="style-guide-heading">Text Input with Label</h3>
          <h5>CSS selector:</h5>
          <p class="css_selector">label</p>
          <h5>Sample code:</h5>
@@ -134,8 +134,8 @@
          <h4 class="style-guide-heading">Rendered element:</h4>
 
          <form>
-          <label for="name">Name on Card:</label>
-          <input type="text" id="name" name="card-name">
+          <label for="name-on-card">Name on Card:</label>
+          <input type="text" id="name-on-card" name="card-name">
           <br>
 
         </form>
@@ -143,7 +143,8 @@
 
 
       <section class="element">
-<!--                 <h2>TITLE</h2>
+         <h2>TITLE</h2>
+<!--                
  --><!--         <p for="input_id" id="label">Label<input id="input_id" type="text" name="username"></p>
  -->    <form>
         <label for="input_id">Looking for Tea?</label>
@@ -158,19 +159,9 @@
       </section>
 
 
-<!--       <section class="element">
-        <h3>Radio Button with Label</h3>
-      </section>
-
- -->
-      
-
-
-    </section>
-
 
       <section class="element">
-         <h3 class="style-guide-heading">Image</h4>
+         <h3 class="style-guide-heading">Image</h3>
          <h5>CSS selector:</h5>
          <p class="css_selector">.products</p>
          <h5>Sample code:</h5>
@@ -190,11 +181,10 @@
           <p>original green tea <strong>$5.98</strong></p>
         </div>
           
-      </div>
 
       </section>
 
-      <section class="element" id="payment_section">
+      <section class="element" >
          <h2>TITLE</h2>
          <h3>Payment Form</h3>
 
@@ -235,6 +225,7 @@
           </div>
         </div>
       </div>
+    </section>
 
   <h3 class="style-guide-heading">Button</h3>
 
@@ -249,17 +240,16 @@
           <a class="button-nav" href="#">Confirm Payment</a>
 
 
-      </section>
-
+      
       <section class="element" id="cart_section">        
         <h2>TITLE</h2>
         <h3>Checkout Cart</h3>
-        <div class = "container" >
+    <div class = "container">
       <div class = "cart-content" id="shopping_cart"> 
-         <div class="cart-heading">
-            <div class="heading-name" id="heading1">Product</div>
-            <div class="heading-name" id="heading2">Quantity/Price</div>
-         </div>
+             <div class="cart-heading">
+                <div class="heading-name" id="heading1">Product</div>
+                <div class="heading-name" id="heading2">Quantity/Price</div>
+             </div>
 
               <div class = "cart-row" >
                   <div class="row-item">
@@ -299,35 +289,10 @@
                               </select>
                     <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset -->
                   </form>
-                
-              </div>
-
-            
-        
+             </div>   
       </div>
-         <!-- <div>
-            <p>bear trap <strong>$5.98</strong></p>
-          </div>
+    </div>
 
-           <form>
-          <label for="quantity">Quantity</label>
-          <input type="number" id="quantity" name="quantity">
-          <input type="reset" value="RESET">
-          <input type="submit" value="SUBMIT">
-        </form>
-
-        <div>
-            <p>matcha <strong>$5.98</strong></p>
-          </div>
-
-            <form>
-          <label for="quantity">Quantity</label>
-          <input type="number" id="quantity" name="quantity">
-          <input type="reset" value="RESET">
-          <input type="submit" value="SUBMIT">
-          <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset -->
-<!--         </form>
-        <p>Total: $11.96</p> --> 
         <h3 class="style-guide-heading">Navigation Link</h3>
         <h5>CSS selector:</h5>
         <p class="css_selector">#cart_section a</p>
@@ -339,15 +304,13 @@
 
            <a class="button-nav" href="#">Checkout</a>
 
-      </section>
-
-    </section>
+         </section>
     <!-- // COMBINED ELEMENTS SECTION -->
 
 <section id="contact_us" class="element">
           <h2>TITLE</h2>
-<!--       <h2>Contact Us</h2>
- -->       <ul>
+      <h2>Contact Us</h2>
+       <ul>
           <li>A TEA STORE For Young People</li>
           <LI>Font: <span>Arial</span>, Times New Roman</LI>
           <li>Color Palette: White,Pink(#FF99CC）,Blue(#66CCCC)
@@ -357,7 +320,7 @@
           <li>Website: www.HomesTEA.ca</li>
       </ul>
       <img src="img/teapot.png" alt="teapot" width="200" height="200">
-    </section>
+</section>
 
     <section id="citations" class="element">
       <h2>Citations</h2>
@@ -377,4 +340,5 @@
 
 
   </body>
+
 </html>
