@@ -16,13 +16,13 @@
   background: #FF99CC;
 }
 
-section ol a p{
+/*section span a{
   text-decoration: none;
   color: #66CCCC;
 }
-section ol a p:hover{
+section span a:hover{
   color: #FF99CC;
-}
+}*/
 body {
   font-family: "Times New Roman";
 }
