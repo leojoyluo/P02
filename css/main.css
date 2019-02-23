@@ -1,3 +1,4 @@
+
 #all_products{
   color: #66CCCC;
   margin-left: 5em;
@@ -45,8 +46,8 @@ input{
 
 
 .element {
-  text-align: center;
-  border-top-width: 0.15rem;
+/*  text-align: center;
+*/  border-top-width: 0.15rem;
 
 }
 h1{
@@ -115,7 +116,7 @@ section ol a p{
   display: inline-block;
   padding: 0.5rem;
   color: white;
-  background-color: rgb(50,50,50);
+  background-color: #66CCCC;
   text-decoration: none;
   transition-property: background-color; 
   transition-duration: 0.5s;
@@ -164,6 +165,7 @@ a#intext_link:focus{
       font-family: Arial;
       color: #66CCCC;
   }
+
 /*
    make the product list align with the centre, when the mouse hover,the image
   will change its opacity and the name of the product will be underline

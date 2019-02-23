@@ -8,21 +8,21 @@
 
     <link href="css/main.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet" >
-    <link href="css/responsive.css" rel="stylesheet" >
+    <link href="css/responsive.css" rel="stylesheet" >    
+    <link href="css/style-guide.css" rel="stylesheet" >
 
   </head>
 
- <header>
+     </header>
+    
+  <body>
+
+   <header>
       <h1>Home's Tea</h1>
 
       
         <p class ="quote">"<dfn>TEA</dfn> defines the way you live."<cite>Home's Tea</cite></p>
       
-<!-- 
-      <div id="icons">
-        <a class="logo" href="#login_section"><img class="icon" src="img/login.png" alt="login" width="30" height="30"></a>
-        <a class="logo" href="checkout.html#cart_section"><img id="homepage_img" class="icon" src="img/cart.png" alt="cart" width="30" height="30"></a>
-      </div> -->
 
       <nav id="main-nav">      
           <div class="nav-2of2"> 
@@ -41,29 +41,23 @@
       </nav>
     
     </header>
-    
-  <body>
-
-   
 
     <!-- INTERACTIVE ELEMENTS SECTION // -->
-    <section id="Home">
-      <h3 id="about_us">In-text link</h3>
+    <section id="Home" class="element">
+      <h3 id="about_us" class="style-guide-heading">In-text link</h3>
        <h5>CSS selector:</h5>
         <p class="css_selector">#Home p a</p>
         <h5>Sample code:</h5>
         <code>&lt;a href="www.google.com"> Know More&lt;/a&gt;</code>
-        <h4>Rendered element:</h4>
+        <h4 class="style-guide-heading">Rendered element:</h4>
        <p class ="quote" >Home's TEA is a popular tea store located in B.C., offering a differentiated selection of proprietary loose-leaf teas, pre-packaged teas, tea sachets and tea-related gifts and accessories through our HOMEsTEA store and our website. We are building a yound and lively brand that seeks to expand the definition of tea with innovative products that consumers can explore in an open and inviting retail environment, and bring it to the young.<a href="#contact_us">Know More</a></p>
-     <!--  <p>semi-annual sale</p>
-      <p>up to 50% off</p>
-      <p>select items</p> -->
-      <h3>Image as a Link</h3>
+
+      <h3 class="style-guide-heading">Image as a Link</h3>
       <h5>CSS selector:</h5>
         <p class="css_selector">#image</p>
         <h5>Sample code:</h5>
         <code>&lt;a id="image" href="product_listing.html">&lt;img src="img/homepage.jpg" alt="Smiley face" width="1300" height="600"&gt; &lt;/a&gt;</code>
-        <h4>Rendered element:</h4>
+        <h4 class="style-guide-heading">Rendered element:</h4>
         <a id="image" href="product_listing.html"><img src="img/homepage.jpg" alt="Smiley face" width=100%  height=auto></a>
 
         
@@ -71,15 +65,13 @@
 
 
       <section class="element">
-<!--         <h2>TITLE</h2>
- --><!--         <h3>Bestsellers</h3>
-   -->    
-   <h3>Numbered List</h4>
+
+   <h3 class="style-guide-heading">Numbered List</h4>
        <h5>CSS selector:</h5>
         <p class="css_selector">ol li</p>
         <h5>Sample code:</h5>
         <code>&lt;ol &lt;li&gt; original green rooibos —— $5.98 &lt;/li&gt;&lt;ol&gt;</code>
-        <h4>Rendered element:</h4>
+        <h4 class="style-guide-heading">Rendered element:</h4>
         <ol>
           <li> original green rooibos —— $5.98</li>
           <li>cotton candy —— $7.98</li>   
@@ -91,24 +83,22 @@
       </section>
 
 
-      <section class="element">
-<!--         <h3>Bestsellers</h3>
-   -->    
-   <h3>4 Levels of Headings</h4>
-       <h5>CSS selector:</h5>
-        <p class="css_selector">h1,h2,h3,h4</p>
-        <h5>Sample code:</h5>
-        <code>&lt;h1&gt;Tittle&lt;/h1&gt;</code>
-        <code>&lt;h2&gt;Tittle&lt;/h2&gt;</code>
-        <code>&lt;h3&gt;Tittle&lt;/h3&gt;</code>
-        <code>&lt;h4&gt;Tittle&lt;/h4&gt;</code>
+      <section class="element" id="levels-heading">   
+       <h3 class="style-guide-heading">4 Levels of Headings</h4>
+           <h5>CSS selector:</h5>
+            <p class="css_selector">h1,h2,h3,h4</p>
+            <h5>Sample code:</h5>
+            <code>&lt;h1&gt;Tittle&lt;/h1&gt;</code>
+            <code>&lt;h2&gt;Tittle&lt;/h2&gt;</code>
+            <code>&lt;h3&gt;Tittle&lt;/h3&gt;</code>
+            <code>&lt;h4&gt;Tittle&lt;/h4&gt;</code>
 
-        <h4>Rendered element:</h4>
-        <h1>Title</h1>
-        <h2>Title</h2>
-        <h3>Title</h3>
-        <h4>Title</h4>
-      </section>
+            <h4 class="style-guide-heading">Rendered element:</h4>
+            <h1>Title</h1>
+            <h2>Title</h2>
+            <h3>Title</h3>
+            <h4>Title</h4>
+     </section>
 
 
      <!--  <section class="element">
@@ -134,26 +124,20 @@
 
 
       <section class="element" id="login_section">
-<!--         <h2>TITLE</h2>
- -->        <!--         <h3>Login</h3> --> 
-        <h3>Text Input with Label</h4>
+        <h3 class="style-guide-heading">Text Input with Label</h4>
          <h5>CSS selector:</h5>
          <p class="css_selector">label</p>
          <h5>Sample code:</h5>
-         <code>&lt;label for="username"&gt;Username&lt;/label&gt;</code>
-         <code>&lt;input type="number" id="quantity" name="quantity"&gt;</code>
-          <code>&lt;input type="reset" value="RESET"&gt;</code>
-          <code>&lt; type="submit" value="SUBMIT"&gt;</code>
-         <h4>Rendered element:</h4>
+         <code>&lt;label for="name"&gt;Name on Card:&lt;/label&gt;</code>
+         <code>&lt;input type="text" id="name" name="text"&gt;</code>
+          <code>&lt; input type="submit" value="SUBMIT"&gt;</code>
+         <h4 class="style-guide-heading">Rendered element:</h4>
 
          <form>
-          <label for="username">Username</label>
-          <input type="number" id="quantity" name="quantity">
+          <label for="name">Name on Card:</label>
+          <input type="text" id="name" name="card-name">
           <br>
-          <label for="username">Password</label>
-          <input type="number" id="quantity" name="quantity">
-          <input type="reset" value="RESET">
-          <input type="submit" value="SUBMIT">
+
         </form>
       </section>
 
@@ -162,7 +146,7 @@
 <!--                 <h2>TITLE</h2>
  --><!--         <p for="input_id" id="label">Label<input id="input_id" type="text" name="username"></p>
  -->    <form>
-        <label for="input_id">SEARCH</label>
+        <label for="input_id">Looking for Tea?</label>
         <input type="text" name="username" id="input_id" placeholder="ENTER KEYWORD">
         <input type="submit" value="SEARCH">
       </form>
@@ -186,18 +170,17 @@
 
 
       <section class="element">
-<!--                 <h2>TITLE</h2>
- -->                <h3>Image</h4>
+         <h3 class="style-guide-heading">Image</h4>
          <h5>CSS selector:</h5>
          <p class="css_selector">.products</p>
          <h5>Sample code:</h5>
          <code>&lt;div class="products"&gt;&lt;img src="img/cotton%20candy.jpg" width="200" alt="cotton candy"&gt;</code>
          <code>&lt;p&gt;cotton candy&lt;/p&gt;&lt;/div&gt;</code>
           
-         <h4>Rendered element:</h4>
+         <h4 class="style-guide-heading">Rendered element:</h4>
 
-<!--         <h3>Product/Service Listing</h3>
- -->        <h4>Tea</h4>
+        <h3>Product/Service Listing</h3>
+        <h4>Tea</h4>
         <div class="products">
             <a href="product_listing.html#flower_tea"><img src="img/rose%20all%20day.jpg" width="200" alt="rose all day"></a>
             <p>rose all day  <strong>$7.98</strong></p>
@@ -206,66 +189,54 @@
           <a href="product_listing.html#green_tea"><img src="img/original%20green.png" width="200" alt="original green tea"></a>
           <p>original green tea <strong>$5.98</strong></p>
         </div>
-          <!-- I didn't add a link to these images below yet -->
-          <div class="products">
-             <img src="img/melon%20cooler.jpg" width="200" alt="melon cooler">
-            <p>melon cooler  $7.98</p>
-          </div>
-          <div class="products">
-                <img src="img/frozen%20raspberry.jpg" width="200" alt="frozen raspberry">
-            <p>frozen raspberry <strong>$6.98</strong></p>
-          </div>
-           <div class="products">
-                  <img src="img/matcha.jpg" width="200" alt="matcha">
-            <p>matcha <strong>$5.98</strong></p>
-          </div>
-
-          <h4>Teawear</h4>
-          <div class="products">
-           <a href="product_listing.html#flamingo"><img src="img/flamingo.jpg" width="200" alt="flamingo"></a>
-            <p>flamingo  $8.98</p>
-          </div>
-
-          <div class="products">
-              <a href="product_listing.html#elepahant"><img src="img/elepahant.jpg" width="200" alt="elepahant"></a>
-              <p>elepahant  $7.98</p>
-          </div>
           
       </div>
 
       </section>
 
       <section class="element" id="payment_section">
-<!--                 <h2>TITLE</h2>
- --><!--         <h3>Payment Form</h3>
- -->        <form>
-   <h3>Text Input with Label</h4>
-         <h5>CSS selector:</h5>
-         <p class="css_selector">label</p>
-         <h5>Sample code:</h5>
-         <code>&lt;label for="card_number"&gt;Username&lt;/label&gt;</code>
-         <code>&lt;input type="number" id="quantity" name="card_number"&gt;</code>
-          <code>&lt;input type="reset" value="RESET"&gt;</code>
+         <h2>TITLE</h2>
+         <h3>Payment Form</h3>
 
-        <form>
-        <label for="card_number">Credit / Debit Card Number:</label>
-          <input type="number" id="card_number" name="card_number">
-          <input type="reset" value="RESET">
-        </form>
-         <form>
-        <label for="card_cvv">CVV:</label>
-          <input type="number" id="card_cvv" name="card_cvv">
-          <input type="reset" value="RESET">
-        </form>
-        <form>
-        <label for="card_date">Expire Date:</label>
-          <input type="date" id="card_date" name="card_date">
-          <input type="reset" value="RESET">
-        </form>
-<!--              <input type="submit" value="Confirm Payment">
- -->      </form>
+  <div class="container" id="payment_section">
 
-  <h3>Button</h3>
+          <div class="container2">
+            <div class="form-row">
+              <label for="name">Name on Card:</label>
+              <input type="text" id="name" placeholder="Joe White">
+            </div>
+            <div class="form-row">
+              <label for="card-type">Debit/Credit Card:</label>
+              <select id="card-type">
+                    <option value="Debit">Debit Card</option>
+                     <option value="Credit">Credit Card</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+                <label for="card-num">Card Number:</label>
+                <input type="number" id="card-num"  name="cvv-num" placeholder="xxxx-xxxx-xxxx-xxxx">
+
+             </div>
+
+            <div class="form-row">
+              <form>
+                <label for="card_date">Expiary Month/Year:</label>
+                <input type="date" id="card_date" name="card_date">
+                <input type="reset" value="RESET">
+              </form>
+            </div>
+             <div class="form-row">
+                <label for="card-cvv">CVV:</label>
+                <input type="number" id="card-cvv" name="cvv-cvv" placeholder="xxx">
+             </div>
+          <div class="form-row">
+              <a class="button-nav" href="#" id="confirm">Confirm Payment</a>
+          </div>
+        </div>
+      </div>
+
+  <h3 class="style-guide-heading">Button</h3>
 
         <h5>CSS selector:</h5>
         <p class="css_selector">.button-nav</p>
@@ -273,7 +244,7 @@
         <h5>Sample code:</h5>
         <code>&lt;a href="#" class="button"&gt;Confirm Payment&lt;/a&gt;</code>
 
-        <h4>Rendered element:</h4>
+        <h4 class="style-guide-heading">Rendered element:</h4>
 
           <a class="button-nav" href="#">Confirm Payment</a>
 
@@ -282,8 +253,59 @@
 
       <section class="element" id="cart_section">        
         <h2>TITLE</h2>
-<!--         <h3>Checkout Cart</h3>
- -->         <div>
+        <h3>Checkout Cart</h3>
+        <div class = "container" >
+      <div class = "cart-content" id="shopping_cart"> 
+         <div class="cart-heading">
+            <div class="heading-name" id="heading1">Product</div>
+            <div class="heading-name" id="heading2">Quantity/Price</div>
+         </div>
+
+              <div class = "cart-row" >
+                  <div class="row-item">
+                  <span><img src="img/original%20green.png" alt="original_green_tea" width="200"></span>
+                    <div class="row-item">
+                      <p>original green tea <strong>$5.98</strong></p>
+                    </div>       
+                 </div>
+
+                  <form class="row-item">
+                    <label>Quantity</label>
+                    <select>
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                              </select>
+                  </form>
+                </div>
+
+              <div class="cart-row">
+                <div class="row-item">
+                  <span ><img src="img/rose%20all%20day.jpg" width="200" alt="rose_all_day"></span>
+                    <div class="row-item">
+                      <p>rose all day <strong>$7.98</strong></p>
+                    </div>
+                  </div>
+                    <form class="row-item">
+                    <label>Quantity</label>
+                              <select>
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                  <option value="5">5</option>
+                              </select>
+                    <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset -->
+                  </form>
+                
+              </div>
+
+            
+        
+      </div>
+         <!-- <div>
             <p>bear trap <strong>$5.98</strong></p>
           </div>
 
@@ -304,16 +326,16 @@
           <input type="reset" value="RESET">
           <input type="submit" value="SUBMIT">
           <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset -->
-        </form>
-        <p>Total: $11.96</p>
-        <h3>Navigation Link</h3>
+<!--         </form>
+        <p>Total: $11.96</p> --> 
+        <h3 class="style-guide-heading">Navigation Link</h3>
         <h5>CSS selector:</h5>
         <p class="css_selector">#cart_section a</p>
 
         <h5>Sample code:</h5>
         <code>&lt;a href="#" class="button"&gt;Checkout&lt;/a&gt;</code>
 
-        <h4>Rendered element:</h4>
+        <h4 class="style-guide-heading">Rendered element:</h4>
 
            <a class="button-nav" href="#">Checkout</a>
 
@@ -322,13 +344,13 @@
     </section>
     <!-- // COMBINED ELEMENTS SECTION -->
 
-<section id="contact_us">
+<section id="contact_us" class="element">
           <h2>TITLE</h2>
 <!--       <h2>Contact Us</h2>
  -->       <ul>
           <li>A TEA STORE For Young People</li>
           <LI>Font: <span>Arial</span>, Times New Roman</LI>
-          <li>Color Palette: White,Violet（#d4a7fd）,Red
+          <li>Color Palette: White,Pink(#FF99CC）,Blue(#66CCCC)
           <li>2662 Happy Street Burnaby B.C. Canada</li>
           <li>Phone:    7788611111</li>
           <li>Hours:    11am - 8 pm(Work days)</li>
@@ -337,7 +359,7 @@
       <img src="img/teapot.png" alt="teapot" width="200" height="200">
     </section>
 
-    <section id="citations">
+    <section id="citations" class="element">
       <h2>Citations</h2>
 
       <ul>
@@ -348,7 +370,7 @@
         <li>WikiPedia, Website, 2019. <strong>Defination of Tea[Text]</strong> Retrieved from https://en.wikipedia.org/wiki/Tea</li>
         <li>Pngtree, Website. n.d. <strong>Teapot[Image]</strong>. Retrieved from https://vi.pngtree.com/freepng/ceramic-pot_1473737.html</li>
         <li>Colors. Website. 2019. <strong>Color Palette[Screenshot]</strong>. Retrieved from https://coolors.co/</li>
-        <li>https://en.wikipedia.org/wiki/Green_tea</li>
+        <li>Wikipedia. 2019. <strong>Tea[Text]</strong> Retrieved from https://en.wikipedia.org/wiki/Green_tea</li>
       </ul>
 
     </section>

@@ -1,4 +1,9 @@
-
+/*The code below is for the search*/
+#search-input{
+	text-align: right;
+	margin-right: 10em;
+	margin-top: 1.5em;
+}
 .product-content{
 	display: flex;
 	justify-content: flex-start;
@@ -29,6 +34,7 @@ h4{
 .products p{
 	margin-bottom: 5em;
 }
+
 /*The code below is for the product listing responsiveness*/
 @media(max-width: 29.5em){
 	.product-content{
@@ -42,10 +48,14 @@ h4{
 	.products p{
 		display: inline;
 	}
+	#search-input{
+		margin-right: 8em;
+	}
+
 }
 
 
-}
+
 
 
 /* The code below is for the sub navagation in product page*/
