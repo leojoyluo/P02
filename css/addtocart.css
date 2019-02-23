@@ -1,16 +1,23 @@
-section{
+/*section{
 	max-width: 60em;
 	text-align: center;
 }
 section p{
 	text-align: center;
 	margin-top: 8em;
+}*/
+.container{
+	text-align: center;
+	margin-top: 4em;
 }
-button a{
+
+div.container a{
 	text-decoration: none;
-	color: #66CCCC;
-}
-button a:hover{
-	text-decoration: none;
-	color: #FF99CC;
+	color: white;
+	background: #66CCCC;
+    font-size: 1.25em;
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+    transition-duration: 0.5s;
 }
