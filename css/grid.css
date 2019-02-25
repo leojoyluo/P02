@@ -30,6 +30,8 @@ a.nav {
 }
 
 
+
+
 @media (max-width:150em){
 
 
@@ -45,30 +47,36 @@ a.nav {
 @media (max-width:53em){
 
 
-    #nav{
+    .nav{
         display:block;
         text-align: left;
         width:8em;
         flex-direction: column;
     }
-    a#nav {
+    a.nav {
     padding-left:40px;
+    }   
+    
 }
 
 
 @media (max-width:40em){
 
-#nav{
-        display:block;
-        text-align: left;
-        width:8em;
-        flex-direction: column;
+    .nav{
+            display:block;
+            text-align: left;
+            width:8em;
+            flex-direction: column;
+        }
+    #gif_2{
+        padding-right: 5em;
     }
+
 }
 
 
 @media (max-width:30em){
-    #nav{
+    .nav{
         display:block;
         text-align: left;
         width:8em;
