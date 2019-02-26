@@ -57,6 +57,7 @@ a.nav {
     padding-left:40px;
     }   
     
+
 }
 
 
@@ -69,8 +70,9 @@ a.nav {
             flex-direction: column;
         }
     #gif_2{
-        padding-right: 5em;
+        padding-right:5em;
     }
+
 
 }
 
