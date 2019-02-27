@@ -68,8 +68,8 @@ h3{
   margin-top: 1rem;
   margin-bottom: 15px;
   color: #FF99CC;
-  border-top: solid #66CCCC; 3px;
-  border-bottom: solid #66CCCC; 3px;
+  border-top: solid #66CCCC 3px;
+  border-bottom: solid #66CCCC 3px;
 }
 
 h4 {
