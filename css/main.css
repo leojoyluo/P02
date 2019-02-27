@@ -16,7 +16,13 @@
   background: #FF99CC;
 }
 
-
+/*section span a{
+  text-decoration: none;
+  color: #66CCCC;
+}
+section span a:hover{
+  color: #FF99CC;
+}*/
 body {
   font-family: "Times New Roman";
 }
@@ -62,8 +68,8 @@ h3{
   margin-top: 1rem;
   margin-bottom: 15px;
   color: #FF99CC;
-  border-top: solid #66CCCC 3px;
-  border-bottom: solid #66CCCC 3px;
+  border-top: solid #66CCCC; 3px;
+  border-bottom: solid #66CCCC; 3px;
 }
 
 h4 {
