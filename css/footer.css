@@ -28,3 +28,7 @@ footer div{
 	text-align: center;
 	padding-top: 2em;
 }
+
+footer li a:hover{
+	color: #66CCCC;
+}
