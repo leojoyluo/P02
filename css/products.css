@@ -1,8 +1,13 @@
-/*The code below is for the search*/
+#gif{
+	text-align: center;
+
+}
+	/*The code below is for the search*/
 #search-input{
 	text-align: right;
 	margin-right: 10em;
 	margin-top: 1.5em;
+	min-width: 25em;
 }
 .product-content{
 	display: flex;
@@ -18,7 +23,7 @@
 	text-align: center;
 }
 
-}
+
 .products figcaption{
 	display: none;
 }
