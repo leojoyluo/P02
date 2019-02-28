@@ -30,3 +30,6 @@ footer div{
 footer li a:hover{
 	color: #66CCCC;
 }
+footer div ul{
+	padding-left: 0;
+}
