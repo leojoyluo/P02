@@ -2,160 +2,120 @@
 <html lang="en">
 
   <head>
-
     <meta charset="utf-8">
     <title>Home's TEA</title>
-
+    <!-- link to CSS -->
     <link href="css/main.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet" >
     <link href="css/responsive.css" rel="stylesheet" >    
     <link href="css/style-guide.css" rel="stylesheet" >
-
   </head>
 
 
     
-  <body>
+<body>
 
-   <header>
+  <header>
       <h1>Home's Tea</h1>
+      <p class ="quote">"<dfn>TEA</dfn> defines the way you live."<cite> Home's Tea</cite></p>
 
-      
-        <p class ="quote">"<dfn>TEA</dfn> defines the way you live."<cite> Home's Tea</cite></p>
-      
+   <!--  navigation bar on top -->
+    <nav id="main-nav">      
+      <div class="nav-2of2"> 
+        <div class="nav-1of2"> 
+          <a href="homepage.html" class="nav">Home</a>
+          <a href="product_listing.html" class="nav">Products</a>
+        </div>
+        <div class="nav-1of2" id="nav-bottom"> 
+          <a href="checkout.html" class="nav">Checkout</a>       
+          <a href="contact_us.html" class="nav">Contacts</a>
+        </div>  
+      </div>
+    </nav>
+  </header>
 
-      <nav id="main-nav">      
-          <div class="nav-2of2"> 
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="Home" class="element">
+    <h3 id="about_us" class="style-guide-heading">In-text link</h3>
+    <h5>CSS selector:</h5>
+    <p class="css_selector">#Home p a</p>
+    <h5>Sample code:</h5>
+    <code>&lt;a href="www.google.com"> Know More&lt;/a&gt;</code>
+    <h4 class="style-guide-heading">Rendered element:</h4>
+    <p class ="quote" >Home's TEA is a popular tea store located in B.C., offering a differentiated selection of proprietary loose-leaf teas, pre-packaged teas, tea sachets and tea-related gifts and accessories through our HOMEsTEA store and our website. We are building a yound and lively brand that seeks to expand the definition of tea with innovative products that consumers can explore in an open and inviting retail environment, and bring it to the young.<a href="#contact_us">Know More</a></p>
 
-            <div class="nav-1of2"> 
-            <a href="homepage.html" class="nav">Home</a>
-            <a href="product_listing.html" class="nav">Products</a>
-            </div>
+    <h3 class="style-guide-heading">Image as a Link</h3>
+    <h5>CSS selector:</h5>
+    <p class="css_selector">#image</p>
+    <h5>Sample code:</h5>
+    <code>&lt;a id="image" href="product_listing.html">&lt;img src="img/homepage.jpg" alt="Smiley face" width="1300" height="600"&gt; &lt;/a&gt;</code>
+    <h4 class="style-guide-heading">Rendered element:</h4>
+    <a id="image" href="product_listing.html"><img src="img/homepage.jpg" alt="Smiley face" ></a>     
+  </section>
 
-            <div class="nav-1of2" id="nav-bottom"> 
-            <a href="checkout.html" class="nav">Checkout</a>       
-            <a href="contact_us.html" class="nav">Contacts</a>
-            </div>
-      
-          </div>
-      </nav>
-    
-    </header>
 
-    <!-- INTERACTIVE ELEMENTS SECTION // -->
-    <section id="Home" class="element">
-      <h3 id="about_us" class="style-guide-heading">In-text link</h3>
-       <h5>CSS selector:</h5>
-        <p class="css_selector">#Home p a</p>
-        <h5>Sample code:</h5>
-        <code>&lt;a href="www.google.com"> Know More&lt;/a&gt;</code>
-        <h4 class="style-guide-heading">Rendered element:</h4>
-       <p class ="quote" >Home's TEA is a popular tea store located in B.C., offering a differentiated selection of proprietary loose-leaf teas, pre-packaged teas, tea sachets and tea-related gifts and accessories through our HOMEsTEA store and our website. We are building a yound and lively brand that seeks to expand the definition of tea with innovative products that consumers can explore in an open and inviting retail environment, and bring it to the young.<a href="#contact_us">Know More</a></p>
+  <section class="element">
+    <h3 class="style-guide-heading">Numbered List</h3>
+    <h5>CSS selector:</h5>
+    <p class="css_selector">ol li</p>
+    <h5>Sample code:</h5>
+    <code>&lt;ol &lt;li&gt; original green rooibos —— $5.98 &lt;/li&gt;&lt;ol&gt;</code>
+    <h4 class="style-guide-heading">Rendered element:</h4>
+    <ol>
+      <li> original green rooibos —— $5.98</li>
+      <li>cotton candy —— $7.98</li>   
+      <li>flamingo —— $8.98</li>
+      <li>elepahant —— $7.98</li>
+    </ol>
+  </section>
 
-      <h3 class="style-guide-heading">Image as a Link</h3>
+
+  <section class="element" id="levels-heading">   
+   <h3 class="style-guide-heading">4 Levels of Headings</h3>
       <h5>CSS selector:</h5>
-        <p class="css_selector">#image</p>
-        <h5>Sample code:</h5>
-        <code>&lt;a id="image" href="product_listing.html">&lt;img src="img/homepage.jpg" alt="Smiley face" width="1300" height="600"&gt; &lt;/a&gt;</code>
-        <h4 class="style-guide-heading">Rendered element:</h4>
-        <a id="image" href="product_listing.html"><img src="img/homepage.jpg" alt="Smiley face" ></a>
+      <p class="css_selector">h1,h2,h3,h4</p>
+      <h5>Sample code:</h5>
+      <code>&lt;h1&gt;Tittle&lt;/h1&gt;</code>
+      <code>&lt;h2&gt;Tittle&lt;/h2&gt;</code>
+      <code>&lt;h3&gt;Tittle&lt;/h3&gt;</code>
+      <code>&lt;h4&gt;Tittle&lt;/h4&gt;</code>
 
-        
-      </section>
-
-
-      <section class="element">
-
-   <h3 class="style-guide-heading">Numbered List</h3>
-       <h5>CSS selector:</h5>
-        <p class="css_selector">ol li</p>
-        <h5>Sample code:</h5>
-        <code>&lt;ol &lt;li&gt; original green rooibos —— $5.98 &lt;/li&gt;&lt;ol&gt;</code>
-        <h4 class="style-guide-heading">Rendered element:</h4>
-        <ol>
-          <li> original green rooibos —— $5.98</li>
-          <li>cotton candy —— $7.98</li>   
-          <li>flamingo —— $8.98</li>
-          <li>elepahant —— $7.98</li>
-        </ol>
-        <!--  <span>
-          <a id="intext_link" href="product_listing.html">All Products</a></span> -->
-      </section>
+      <h4 class="style-guide-heading">Rendered element:</h4>
+      <h1>Title</h1>
+      <h2>Title</h2>
+      <h3>Title</h3>
+      <h4>Title</h4>
+    </section>
 
 
-      <section class="element" id="levels-heading">   
-       <h3 class="style-guide-heading">4 Levels of Headings</h3>
-           <h5>CSS selector:</h5>
-            <p class="css_selector">h1,h2,h3,h4</p>
-            <h5>Sample code:</h5>
-            <code>&lt;h1&gt;Tittle&lt;/h1&gt;</code>
-            <code>&lt;h2&gt;Tittle&lt;/h2&gt;</code>
-            <code>&lt;h3&gt;Tittle&lt;/h3&gt;</code>
-            <code>&lt;h4&gt;Tittle&lt;/h4&gt;</code>
 
-            <h4 class="style-guide-heading">Rendered element:</h4>
-            <h1>Title</h1>
-            <h2>Title</h2>
-            <h3>Title</h3>
-            <h4>Title</h4>
-     </section>
-
-
-     <!--  <section class="element">
-        <a id="intext_link" href="https://canvas.sfu.ca/courses/43588/assignments/344722"><h3>In-text link</h3></a>
-      </section> -->
-
-
-      <!-- Default Button styling section -->
-     <!--  <section class="element">
-
-        <h3>Navigation Link</h3>
-
-        <h4>CSS selector:</h4>
-        <p>.button-nav</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <a class="button-nav" href="#">Default Button</a>
-
-      </section> -->
-
-
-      <section class="element" id="login_section">
+    <section class="element" id="login_section">
         <h3 class="style-guide-heading">Text Input with Label</h3>
-         <h5>CSS selector:</h5>
-         <p class="css_selector">label</p>
-         <h5>Sample code:</h5>
-         <code>&lt;label for="name"&gt;Name on Card:&lt;/label&gt;</code>
-         <code>&lt;input type="text" id="name" name="text"&gt;</code>
-          <code>&lt; input type="submit" value="SUBMIT"&gt;</code>
-         <h4 class="style-guide-heading">Rendered element:</h4>
+        <h5>CSS selector:</h5>
+        <p class="css_selector">label</p>
+        <h5>Sample code:</h5>
+        <code>&lt;label for="name"&gt;Name on Card:&lt;/label&gt;</code>
+        <code>&lt;input type="text" id="name" name="text"&gt;</code>
+        <code>&lt; input type="submit" value="SUBMIT"&gt;</code>
+        <h4 class="style-guide-heading">Rendered element:</h4>
 
-         <form>
+        <form>
           <label for="name-on-card">Name on Card:</label>
           <input type="text" id="name-on-card" name="card-name">
           <br>
-
         </form>
       </section>
 
 
       <section class="element">
-         <h2>TITLE</h2>
-<!--                
- --><!--         <p for="input_id" id="label">Label<input id="input_id" type="text" name="username"></p>
- -->    <form>
+        <h2>TITLE</h2>
+        <form>
         <label for="input_id">Looking for Tea?</label>
         <input type="text" name="username" id="input_id" placeholder="ENTER KEYWORD">
         <input type="submit" value="SEARCH">
-      </form>
+        </form>
 
-      <!-- //https://learn.shayhowe.com/html-css/building-forms -->
-
-
-
+        <!-- //https://learn.shayhowe.com/html-css/building-forms -->
       </section>
 
 
@@ -185,16 +145,15 @@
       </section>
 
       <section class="element" >
-         <h2>TITLE</h2>
-         <h3>Payment Form</h3>
-
-  <div class="container" id="payment_section">
-
+        <h2>TITLE</h2>
+        <h3>Payment Form</h3>
+        <div class="container" id="payment_section">
           <div class="container2">
             <div class="form-row">
               <label for="name">Name on Card:</label>
               <input type="text" id="name" placeholder="Joe White">
             </div>
+
             <div class="form-row">
               <label for="card-type">Debit/Credit Card:</label>
               <select id="card-type">
@@ -227,7 +186,7 @@
       </div>
     </section>
 
-  <section class="element">
+    <section class="element">
       <h3 class="style-guide-heading">Button</h3>
 
             <h5>CSS selector:</h5>
