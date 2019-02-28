@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>Home's Tea  - Checkout Page </title>
   <link href="css/main.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet" >
   <link href="css/footer.css" rel="stylesheet" >
-    <link href="css/checkout.css" rel="stylesheet">
+  <link href="css/checkout.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet" >
-<!--     <link href="css/about_us_style.css" rel="stylesheet" >
- --></head>
+</head>
 
 
 <body>
@@ -18,79 +18,76 @@
 
       <p class ="quote">"<dfn>TEA</dfn> defines the way you live."<cite> Home's Tea</cite></p>
 
-        <nav id="main-nav">      
-          <div class="nav-2of2"> 
-
-            <div class="nav-1of2"> 
-            <a href="homepage.html" class="nav">Home</a>
-            <a href="product_listing.html" class="nav">Products</a>
-            </div>
-
-            <div class="nav-1of2" id="nav-bottom"> 
-            <a href="checkout.html" class="nav">Checkout</a>       
-            <a href="contact_us.html" class="nav">Contacts</a>
-            </div>
-      
-          </div>
-        </nav>
+   <!--  navigation bar on top -->
+    <nav id="main-nav">      
+      <div class="nav-2of2"> 
+        <div class="nav-1of2"> 
+          <a href="homepage.html" class="nav">Home</a>
+          <a href="product_listing.html" class="nav">Products</a>
+        </div>
+        <div class="nav-1of2" id="nav-bottom"> 
+          <a href="checkout.html" class="nav">Checkout</a>       
+          <a href="contact_us.html" class="nav">Contacts</a>
+        </div>  
+      </div>
+    </nav>
 
 </header>
   
   <h2 id="cart_section">Your Cart</h2>
 
-   <div class = "container" >
-      <div class = "cart-content" id="shopping_cart"> 
-         <div class="cart-heading">
-            <div class="heading-name" id="heading1">Product</div>
-            <div class="heading-name" id="heading2">Quantity/Price</div>
-         </div>
+  <div class = "container" >
+    <div class = "cart-content" id="shopping_cart"> 
+      <!-- Heading of the cart -->
+      <div class="cart-heading">
+        <div class="heading-name" id="heading1">Product</div>
+          <div class="heading-name" id="heading2">Quantity/Price</div>
+        </div>
 
-              <div class = "cart-row" >
-                  <div class="row-item">
-                  <span><img src="img/original%20green.png" alt="original_green_tea"></span>
-                    <div class="row-item">
-                      <p>original green tea <strong>$5.98</strong></p>
-                    </div>       
-                 </div>
+      <!-- Container for the first Item -->
+      <div class = "cart-row" >
+        <div class="row-item">
+          <span><img src="img/original%20green.png" alt="original_green_tea"></span>
+          <div class="row-item">
+            <p>original green tea <strong>$5.98</strong></p>
+          </div>       
+        </div>
 
-                  <form class="row-item">
-                    <label>Quantity</label>
-                    <select>
-                                  <option value="1">1</option>
-                                  <option value="2">2</option>
-                                  <option value="3">3</option>
-                                  <option value="4">4</option>
-                                  <option value="5">5</option>
-                              </select>
-                  </form>
-                </div>
-
-              <div class="cart-row">
-                <div class="row-item">
-                  <span ><img src="img/rose%20all%20day.jpg" alt="rose_all_day"></span>
-                    <div class="row-item">
-                      <p>rose all day <strong>$7.98</strong></p>
-                    </div>
-                  </div>
-                    <form class="row-item">
-                    <label>Quantity</label>
-                              <select>
-                                  <option value="1">1</option>
-                                  <option value="2">2</option>
-                                  <option value="3">3</option>
-                                  <option value="4">4</option>
-                                  <option value="5">5</option>
-                              </select>
-                    <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset -->
-                  </form>
-                
-              </div>
-
-            
-        
+        <form class="row-item">
+          <label>Quantity</label>
+            <select>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+           </select>
+        </form>
       </div>
 
+      <!-- Container for the second item -->
+      <div class="cart-row">
+        <div class="row-item">
+          <span ><img src="img/rose%20all%20day.jpg" alt="rose_all_day"></span>
+            <div class="row-item">
+              <p>rose all day <strong>$7.98</strong></p>
+            </div>
+        </div>
+        <form class="row-item">
+          <label>Quantity</label>
+            <select>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+                    <!-- Reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset -->
+        </form>
+      </div>
+    </div>
 
+      <!-- Box for cart summary -->
        <div class = "cart-summary" >
         <div class="summary-heading">Order Summary</div>
         <div class="summary-content">
@@ -106,9 +103,9 @@
       </div>
     </div>
 
-          <h2 id="payment_heading">Payment</h2>
+    <!-- Payment infos -->
+      <h2 id="payment_heading">Payment</h2>
       <div class="container" id="payment_section">
-
           <div class="container2">
             <div class="form-row">
               <label for="name">Name on Card:</label>
@@ -125,7 +122,6 @@
             <div class="form-row">
                 <label for="card-num">Card Number:</label>
                 <input type="number" id="card-num"  name="cvv-num" placeholder="xxxx-xxxx-xxxx-xxxx">
-
              </div>
 
             <div class="form-row">
@@ -147,23 +143,19 @@
         
 
 
-
- <footer>
-  <div>
-  <ul>
-    <li id="style_button"><a href="index.html">Styleguide</a></li>
-    <li><a href="references.html">References</a></li>
-    <li><a href="https://github.com/leojoyluo/P02.git">Git repository</a></li>
-    <li>8888 Happy Street Burnaby B.C. Canada</li>
-    <li>Phone:    7788610111</li>
-    <li>Hours:    11:30am - 6:00 pm(Workdays)</li>
-    <li>www.HomesTEA.ca</li>
-  </ul>
-</div>
- </footer>
-
+  <!-- Bottom Footer,including link to style guide -->
+  <footer>
+    <div>
+      <ul>
+        <li id="style_button"><a href="index.html">Styleguide</a></li>
+        <li>8888 Happy Street Burnaby B.C. Canada</li>
+        <li>Phone:    7788610111</li>
+        <li>Hours:    11:30am - 6:00 pm(Workdays)</li>
+        <li>www.HomesTEA.ca</li>
+      </ul>
+    </div>
+  </footer>
 
 </body>
-
 
 </html>
